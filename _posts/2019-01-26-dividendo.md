@@ -14,7 +14,7 @@ Il lavoro è stato svolto come elaborato finale per il corso di Progettazione di
 
 La progettazione ha seguito il modello del *Double Diamond*.
 
-![Double Diamond]( {{site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
+![Double Diamond]({{site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
 
 
 

@@ -17,8 +17,8 @@ title: Ben's Portfolio
 email: ben.offiben@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, my name is Beniamino Marini, but you can call me just Ben.
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://youcancallmeben.design" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  SRFeesha
 dribbble_username: SRFeesha
 linkedin_username: beniamino-marini
