@@ -14,7 +14,7 @@ Il lavoro è stato svolto come elaborato finale per il corso di Progettazione di
 
 La progettazione ha seguito il modello del *Double Diamond*.
 
-![Double Diamond](/assets/img/dividendo/doublediamonddesignprocess.png)
+![Double Diamond]( {{site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
 
 
 
@@ -22,7 +22,7 @@ La progettazione ha seguito il modello del *Double Diamond*.
 #### Design Brief
 
 
-![Design Brief](/assets/img/dividendo/design brief.png)
+![Design Brief]({{site.baseurl }}/assets/img/dividendo/design brief.png)
 
 
 #### User research
@@ -37,19 +37,19 @@ Per comunicare efficacemente i risultati emersi dalla user research abbiamo pens
 Ognuna di esse è accompagnata da un activity scenario per aiutare il lettore a contestualizzare rispetto al problema.
 
 
-![Personas](/assets/img/dividendo/personas.jpg)
+![Personas]({{site.baseurl }}/assets/img/dividendo/personas.jpg)
 
 Abbiamo pensato di approfondire ogni soggetti mediante lo strumento dell'empathy map.
 
 
-![EmpathyMap](/assets/img/dividendo/empathy map.jpg)
+![EmpathyMap]({{site.baseurl }}/assets/img/dividendo/empathy map.jpg)
  
 Dall'empathy map abbiamo potuto trarre interessanti considerazioni, le quali ci hanno permesso di discutere e di stilare numerosi Paint point, clusterizzati poi in 9 elementi distinti.
 
 Nel nostro progetto I pain point sono stati l'elemento portante, sono stati il punto di riferimento per tutta la parte di progettazione dell'applicazione. 
 Ogni volta che ci trovavamo di fronte a scelte nella prioritizazione dei task o quale fosse la strada giusta, ci chiedavamo se dai Paint point potevamlo trarne consiglio.
 
-![PainPoint](/assets/img/dividendo/pain point.jpg)
+![PainPoint]({{site.baseurl }}/assets/img/dividendo/pain point.jpg)
 
 Sviluppare un prodotto che rispondesse a dei reali bisogni, desideri ed emozioni dell'utente è stato fin da subito il nostro obiettivo. 
 Per questo motivo I pain point Sono stati il punto di riferimento durante tutta la parte successiva del processo.
@@ -67,7 +67,7 @@ L'applicazione permetterà alle persone di aggiungere delle spese, specificare c
 
 ## Develop-Deliver 
 
-![DesignConcept](/assets/img/dividendo/design concept.png)
+![DesignConcept]({{site.baseurl }}/assets/img/dividendo/design concept.png)
 MOCKUP
 AGGIUNGI SPESA MANUALE
 HOMEPAGE
