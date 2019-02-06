@@ -7,48 +7,54 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <div id="landing">
+    <!-- <div id="whiteSpace"></div> -->
+    <div id="intro">{{ page.intro }}</div>
+    <div id="big">{{ page.big}}</div>
+    <div id="hero"> <img src="{{ site.baseurl }}/assets/svg/{{ page.svg }}" /> </div>
+    <div id="introText">{{ content }}</div>
+  </div>
 
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-  <ul class="post-list">
+  <div id="workSection">
+    {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
 
-    {%- for post in site.posts -%}
-    <li>
-      <div class="container{% cycle 'Odd', 'Even' %}">
-        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <div class="title">
-          <h3 style="margin-bottom: 0px;">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
+      {%- for post in site.posts -%}
+      <li class="works">
+        <div class="card container{% cycle 'Odd', 'Even' %}">
+          <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+
+          <div class="title">
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+          </div>
+
+          <!-- <span class="post-meta tags">{{ post.tag }}</span> -->
+          <div class="post-meta tags">
+            {% for tag in post.tag %}
+            <div class="tag">{{ tag }}</div>
+            {% endfor %}
+          </div>
+
+          {%- if site.show_excerpts -%}
+          <div class="excerpt">
+            {{ post.excerpt }}
+          </div>
+          {%- endif -%}
+          <div class="featuredImage">
+            <img class="featured" src="{{ site.baseurl }}/assets/img/{{ post.image }}">
+          </div>
         </div>
+      </li>
+      {%- endfor -%}
 
-        <!-- <span class="post-meta tags">{{ post.tag }}</span> -->
-        <div class="post-meta tags">
-          {% for tag in post.tag %}
-          <div class="tag">{{ tag }}</div>
-          {% endfor %}
-        </div>
-
-        {%- if site.show_excerpts -%}
-        <div class="excerpt">
-          {{ post.excerpt }}
-        </div>
-        {%- endif -%}
-        <div class="featuredImage">
-          <img class="featured" src="{{ site.baseurl }}/assets/img/{{ post.image }}">
-        </div>
-      </div>
-    </li>
-    {%- endfor -%}
-
-  </ul>
-
-
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
-  {%- endif -%}
+    </ul>
+    {%- endif -%}
+  </div>
 
 </div>

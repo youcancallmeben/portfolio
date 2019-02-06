@@ -1,0 +1,28 @@
+
+#landing {
+    position: static;
+    height: calc(100vh - 120px - 1em);
+
+    #whiteSpace{
+        height: 20vh;
+    }
+    #big {
+        font-family:'Abril Fatface', cursive; 
+        font-weight: 400; font-size: 2em;
+        // position: relative;
+        text-align: center;
+    }
+
+    #hero {
+        margin: -5vh 0 0 2vh;
+    }
+
+    #introText {
+        margin: 0.5em;
+    }
+}
+
+
+#workSection {
+    display:block;
+}

@@ -4,29 +4,15 @@
 
 layout: home
 list_title: Some works
+svg: firstImage.svg
+intro: "Hi 👋 <br> my name is Beniamino Marini, but"
+big: you can call me Ben
+
 ---
 
 
-<br><br><br><br><br><br><br><br><br><br><br>
+I'm an Web Designer based in Trento 🇮🇹.<br>
+I like meaningful micro-interactions, finding new ways to work smarter and chill music. <br>
 
-
-
-Hi :wave: my name is Beniamino Marini, but **you can call me Ben**{: style="font-family:'Abril Fatface', cursive; font-weight: 400; font-size: 2em;"} 
-
-<!-- # you can call me Ben :sparkles: -->
-
-
-I'm an Interaction designer and a Web developer based in Trento. <br>
-
-I like meaningful micro-interactions, learning  cool things and chilled vibe music. <br>
-
-Feel free to [contact me](mailto:benoffiben@gmail.com). :blush:
-<br><br><br><br>
-<br>
-
-
-<br>
-<br>
-
-
+Feel free to [contact me](mailto:mail@youcancallmeben.design). 😊
 
