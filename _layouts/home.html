@@ -7,12 +7,11 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  <div id="landing">
-    <!-- <div id="whiteSpace"></div> -->
+  <div id="onboarding">
     <div id="intro">{{ page.intro }}</div>
-    <div id="big">{{ page.big}}</div>
     <div id="hero"> <img src="{{ site.baseurl }}/assets/svg/{{ page.svg }}" /> </div>
     <div id="introText">{{ content }}</div>
+    <div id="contactme">{{ page.contactme }}</div>
   </div>
 
   <div id="workSection">
@@ -23,8 +22,6 @@ layout: default
       {%- for post in site.posts -%}
       <li class="works">
         <div class="card container{% cycle 'Odd', 'Even' %}">
-          <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span> -->
 
           <div class="title">
             <h3>
