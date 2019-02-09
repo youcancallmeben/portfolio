@@ -2,33 +2,54 @@
 layout: page
 title: About
 permalink: /about/
+foto: /assets/img/pp_instagram.jpg
 ---
 
-I’m an Interaction designer with a background in IT. 
+I am a designer with a background in IT. <br>
+I discovered the *creative side of development* 2 years ago.<br>
+Right now I'm studying UX Design at Trento.
+
+I am a multi-disciplinary 
+
+I get excited discovering new technologies and I'm fascinated by all the enhancement in the world of graphic design.
+
+I'm excited about the future of prototyping digital product.
+
+
+More now than always seems easy to create valuable digital product.
+
+I feel about mmyself that I have to pursue great achievement.
+
+I'm fascinated by the movement and in the consequence it can have in attention.
+
+I'm fascinated by how we remember things and how perceive them.
+
+I got crazy dad move
 
 
 
-You can find me also in all these platforms :nerd:
+Right now I'm giving myself some time experimenting and diving deeper into the following fields: 
+
+Front end development
+UX Design
+Motion Design
+UI Design
+
+I'm still trying to find where to give my full attention and putting all my work
+
+T shaped expertise
 
 
-{%- assign social = site.minima.social_links -%}
+I feel like there are so many things to learn.. There are days in which at the end I stop to reflect and i realize there are many things that i learned today, but i've also found even more things I'd like to learn.
 
-<ul class="social-media-list">
-  {%- if social.dribbble -%}<li><a href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}" title="{{ social.dribbble | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.facebook -%}<li><a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" title="{{ social.facebook | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.flickr -%}<li><a href="https://www.flickr.com/photos/{{ social.flickr | cgi_escape | escape }}" title="{{ social.flickr | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.instagram -%}<li><a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" title="{{ social.instagram | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.linkedin -%}<li><a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.pinterest -%}<li><a href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape }}" title="{{ social.pinterest | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#pinterest' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- for mst in social.mastodon -%}{%- if mst.username and mst.instance -%}<li><a rel="me" href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" title="{{ mst.username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg></a></li>{%- endif -%}{%- endfor -%}
-  {%- if social.twitter -%}<li><a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.youtube -%}<li><a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}" title="{{ social.youtube | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.youtube_channel -%}<li><a href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.telegram -%}<li><a href="https://t.me/{{ social.telegram | cgi_escape | escape }}" title="{{ social.telegram | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#telegram' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.microdotblog -%}<li><a rel="me" href="https://micro.blog/{{ social.microdotblog | cgi_escape | escape }}" title="{{ social.microdotblog | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#microdotblog' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.googleplus -%}<li><a href="https://plus.google.com/{{ social.googleplus | escape }}" title="{{ social.googleplus | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}"></use></svg></a></li>{%- endif -%}
-  {%- if social.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg></a></li>{%- endif -%}
-</ul>
+Right now my main objective is experimenting a little bit in all these fields to better understand where I'd like to specialize.
 
+
+FOTO
+
+
+You can find me online also at 
+<div class="social-links">
+  {%- include social.html -%}
+</div>
 

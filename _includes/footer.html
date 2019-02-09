@@ -5,8 +5,18 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
+      <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+
+      <div class="svg-wrapper">
+        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+          <rect class="shape" height="60" width="320" />
+        </svg>
+        <div id="mailme">
+          mail@youcancallmeben.design
+        </div>
+      </div>
+
+      <ul class="contact-list">
           <li class="p-name">
             <!-- {%- if site.author -%}
               {{ site.author | escape }}
@@ -14,9 +24,11 @@
               {{ site.title | escape }}
             {%- endif -%}
             </li> -->
-            {%- if site.email -%}
+
+
+            <!-- {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+            {%- endif -%} -->
         </ul>
       </div>
 

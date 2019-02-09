@@ -12,3 +12,5 @@ contactme: "Feel free to <a href=\"mailto:mail@youcancallmeben.design\">contact 
 I'm an Web Designer based in Trento 🇮🇹.<br>
 I like meaningful micro-interactions, finding new ways to work smarter and chill music. <br>
 
+<!-- I'm a multi disciplinary web designer
+with a passion for micro-interactions and chill music -->
