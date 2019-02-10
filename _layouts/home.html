@@ -8,7 +8,7 @@ layout: default
   {%- endif -%}
 
   <div id="onboarding">
-  
+
     <!-- <div id="hero"> <img src="{{ site.baseurl }}/assets/svg/{{ page.svg }}" /> </div> -->
     <object id="hero" type="image/svg+xml" data="{{ site.baseurl }}/assets/svg/{{ page.svg }}"></object>
     <div id="intro">{{ page.intro }}</div>
@@ -20,33 +20,32 @@ layout: default
 
   <div id="workSection">
     {%- if site.posts.size > 0 -%}
-    <!-- <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
 
       {%- for post in site.posts -%}
       <li class="works">
-        <div class="card container{% cycle 'Odd', 'Even' %}">
-
-          <div class="title">
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
+        <div class="card container">
+          <div class="grid-container">
+            <div class="title">
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+            </div>
+        
+            <div class="post-meta tags">
+              {% for tag in post.tag %}
+              <div class="tag">{{ tag }}</div>
+              {% endfor %}
+            </div>
+        
+            {%- if site.show_excerpts -%}
+            <div class="excerpt">
+              {{ post.excerpt }}
+            </div>
+            {%- endif -%}
           </div>
-
-          <!-- <span class="post-meta tags">{{ post.tag }}</span> -->
-          <div class="post-meta tags">
-            {% for tag in post.tag %}
-            <div class="tag">{{ tag }}</div>
-            {% endfor %}
-          </div>
-
-          {%- if site.show_excerpts -%}
-          <div class="excerpt">
-            {{ post.excerpt }}
-          </div>
-          {%- endif -%}
           <div class="featuredImage">
             <img class="featured" src="{{ site.baseurl }}/assets/img/{{ post.image }}">
           </div>

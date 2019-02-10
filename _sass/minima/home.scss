@@ -1,26 +1,19 @@
-
 #onboarding {
     display: grid;
-    grid-template-rows:50vh 2fr 2fr 1fr 2fr;
-    // grid-template-rows: 50vh 10vh 10vh 7.2vh 10vh;
-
-        // grid-row-gap: 1em;
+    grid-template-rows: 50vh 2fr 2fr 1fr 2fr;
     align-items: center;
 
     #hero {
-       
         width: 100%;
         height: 100%;
     }
 
-    h2{
+    h2 {
         margin-bottom: 0px;
         align-self: end;
     }
-
 }
 
-
 #workSection {
-    display:block;
+    display: block;
 }
