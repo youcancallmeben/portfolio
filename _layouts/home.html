@@ -8,15 +8,19 @@ layout: default
   {%- endif -%}
 
   <div id="onboarding">
+  
+    <!-- <div id="hero"> <img src="{{ site.baseurl }}/assets/svg/{{ page.svg }}" /> </div> -->
+    <object id="hero" type="image/svg+xml" data="{{ site.baseurl }}/assets/svg/{{ page.svg }}"></object>
     <div id="intro">{{ page.intro }}</div>
-    <div id="hero"> <img src="{{ site.baseurl }}/assets/svg/{{ page.svg }}" /> </div>
     <div id="introText">{{ content }}</div>
-    <div id="contactme">{{ page.contactme }}</div>
+    <div id="contact-me">{{ page.contactme }}</div>
+    <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2>
+
   </div>
 
   <div id="workSection">
     {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2>
+    <!-- <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
 
       {%- for post in site.posts -%}
