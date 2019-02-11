@@ -5,7 +5,7 @@
 layout: home
 list_title: Some works
 svg: firstImage.svg
-intro: "Hi 👋 <br> my name is Beniamino, but you can call me Ben"
+intro: "Hi 👋 <br> my name is Beniamino, but <strong>you can call me Ben</strong>"
 contactme: "Feel free to <a href=\"mailto:mail@youcancallmeben.design?subject=Hei Ben!\">contact me</a>  "
 ---
 

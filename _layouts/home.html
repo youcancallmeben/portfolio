@@ -8,48 +8,48 @@ layout: default
   {%- endif -%}
 
   <div id="onboarding">
-
-    <!-- <div id="hero"> <img src="{{ site.baseurl }}/assets/svg/{{ page.svg }}" /> </div> -->
     <object id="hero" type="image/svg+xml" data="{{ site.baseurl }}/assets/svg/{{ page.svg }}"></object>
-    <div id="intro">{{ page.intro }}</div>
-    <div id="introText">{{ content }}</div>
-    <div id="contact-me">{{ page.contactme }}</div>
-    <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2>
-
+    <div data-aos="fade-up">
+      <div id="intro">{{ page.intro }}</div>
+      <div id="introText">{{ content }}</div>
+      <div id="contact-me">{{ page.contactme }}</div>
+    </div>
   </div>
-
+  
   <div id="workSection">
+      <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2>
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">
 
       {%- for post in site.posts -%}
       <li class="works">
-        <div class="card container">
-          <div class="grid-container">
-            <div class="title">
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-            </div>
-        
-            <div class="post-meta tags">
-              {% for tag in post.tag %}
-              <div class="tag">{{ tag }}</div>
-              {% endfor %}
-            </div>
-        
-            {%- if site.show_excerpts -%}
+        <a class="card-link" href="{{ post.url | relative_url }}">
+          <div data-aos="fade-up" id="card{{ forloop.index }}" class="card container">
+            <div class="grid-container">
+              <div class="title">
+                <h3 class="card-title">
+                    {{ post.title | escape }}
+                </h3>
+              </div>
+
+              <div class="post-meta tags">
+                {% for tag in post.tag %}
+                <div class="tag">{{ tag }}</div>
+                {% endfor %}
+              </div>
+
+              <!-- {%- if site.show_excerpts -%}
             <div class="excerpt">
               {{ post.excerpt }}
             </div>
-            {%- endif -%}
+            {%- endif -%} -->
+
+            </div>
+            <div data-aos="fade-down-left" class="featuredImage">
+              <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.image }}" class="featured"></object>
+            </div>
           </div>
-          <div class="featuredImage">
-            <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.image }}" class="featured"></object>
-          </div>
-        </div>
+        </a>
       </li>
       {%- endfor -%}
 
