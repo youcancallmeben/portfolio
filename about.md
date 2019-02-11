@@ -45,6 +45,9 @@ I feel like there are so many things to learn.. There are days in which at the e
 Right now my main objective is experimenting a little bit in all these fields to better understand where I'd like to specialize.
 
 
+If you want to ask something or you feel like you want to let me know anything, just contact me
+
+
 FOTO
 
 

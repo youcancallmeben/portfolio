@@ -5,7 +5,7 @@ date:   2019-01-26 17:30:58 +0100
 categories: jekyll update
 tag: [ux, prototyping, mobile]
 permalink: dividendo
-image: dividendo/featured.png
+image: dividendo/aggiungiSpesaManuale.svg
 ---
 
 Questo lavoro è stato ispirato da una nostra personale esigenza di semplificare il processo di divisione delle spese comuni.

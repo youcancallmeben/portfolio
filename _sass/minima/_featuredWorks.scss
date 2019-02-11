@@ -3,13 +3,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
-
-    
-        display: flex;
-        flex-flow: row ;
-        /* This aligns items to the end line on main-axis */
-        justify-content: space-between;
-    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 20%;  
 }
 
 .card:hover {
@@ -19,12 +16,25 @@
 .grid-container {
     display: grid;
     justify-items: start;
-    grid-template-rows:3em 1.5em 10px auto;
-    grid-template-areas: 
-        "title  "
-        "tags   " 
-        ".      " 
-        "excerpt";
+    grid-template-rows: 3em 1.5em 10px auto;
+    grid-template-areas: "title  " "tags   " ".      "  "excerpt";
+
+    .tags {
+        grid-area: tags;
+    }
+
+    .title {
+        grid-area: title;
+        align-self: center;
+
+        > h3 {
+            margin-bottom: 0px;
+        }
+    }
+
+    .excerpt {
+        grid-area: excerpt;
+    }
 }
 
 .container {
@@ -32,29 +42,11 @@
 }
 
 
-
-.tags {
-    grid-area: tags;
-}
-
-.title {
-    grid-area: title;
-    align-self:center;
-
-    > h3 {
-        margin-bottom: 0px;
-    }
-}
-
-.excerpt {
-    grid-area: excerpt;
-}
-
 .featuredImage {
-    max-width: 30%;
-    // max-width: 200px;
+    max-width: 30vw;
     order: 2;
     height: auto;
+    width:100%;
 }
 
 .tag {
@@ -75,7 +67,7 @@
     .featuredImage {
         order: -1;
         max-height: 30%;
-        width: auto;
-        max-width:100%;
+        max-width:70vw;
+        width:100%;
     }
   }

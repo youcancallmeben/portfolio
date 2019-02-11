@@ -47,7 +47,7 @@ layout: default
             {%- endif -%}
           </div>
           <div class="featuredImage">
-            <img class="featured" src="{{ site.baseurl }}/assets/img/{{ post.image }}">
+            <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.image }}" class="featured"></object>
           </div>
         </div>
       </li>
