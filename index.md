@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-list_title: Some works
+list_title: Case studies
 svg: firstImage.svg
 intro: "Hi 👋 <br> my name is Beniamino, but <strong>you can call me Ben</strong>"
 # contactme: "Feel free to <a href=\"mailto:mail@youcancallmeben.design?subject=Hei Ben!\">contact me</a>  "

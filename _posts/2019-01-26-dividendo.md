@@ -8,17 +8,44 @@ permalink: dividendo
 image: dividendo/aggiungiSpesaManuale.svg
 ---
 
+## The design problem
+
+Il nostro obiettivo era aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze.
+Nel concreto queste esperienze potrebbero ad esempio essere la condivisione di un appartamento (es: tra studenti universitari) oppure esperienze tra amici (es: viaggio all’estero, giornata sulle piste da sci ecc). 
+Gestire le spese comuni spesso richiede tempo, provoca imbarazzo e comporta numerosi calcoli, non sarebbe bello se ci fosse una soluzione che permettesse di semplificare tutto il processo?
+
+## Le barriere
+
+Una divisione equa delle spese potrebbe non sembrare una sfida troppo impegnativa, tuttavia spesso porta a sentimenti di frustrazione.
+Spesso il problema non sono effettivamente i soldi, ma -ancora peggio- la sensazione di sentirsi fregati dai propri amici.
+
+Cercare di ricordarsi ogni spesa fatta senza alcuna nota scritta è infattibile se le spese sono numerose. 
+Una tecnica spesso adottata è di tenere lo scontrino e di posporre il problema, pensando di fare i calcoli a fine giornata. Nella teoria questa soluzione funziona perfettamente, ma nell’attuazione pratica si incorre spesso in diversi problemi: scontrini non conservati, smarriti, non consegnati...
+Anche una volta effettuati tutti i calcoli, spesso non si hanno a disposizione esattamente i contanti richiesti. Questo porta a tenere il debito “aperto” e a doversene ricordare nei giorni successivi.
+Altro ostacolo che interviene nella divisione equa delle spese è che, una volta capito chi deve cosa a chi, ci si rende conto che non si hanno a disposizione i contanti esatti al momento (troppi o troppo pochi). “Te li ridarò la prossima volta” si conclude in questi casi, ma questo comporta una ulteriore fatica mentale nel doversi ricordare i debiti per diversi giorni e sentimenti di sfiducia nei confronti del prossimo o di imbarazzo nell’avere debiti aperti.
+
+Alcune volte all’interno dello scontrino ci sono prodotti da dividere, mentre altri no. 
+Questo aggiunge un ulteriore livello di complessità nei calcoli.
+La divisione è dispendiosa in termini di tempo e richiede una concentrazione mentale che può essere inappropriata per la situazione in cui ci si trova. 
+
+Molte persone si trovano in imbarazzo nel ricordare ad altri dei debiti in sospeso: questo vale sia fra amici che tra persone con cui non si ha tanta confidenza. 
+Può causare imbarazzo anche dover ricordare ad altri di aver effettuato spese ritenute molto piccole (anche se la concezione di piccolo può cambiare molto da persona a persona).
+
 Questo lavoro è stato ispirato da una nostra personale esigenza di semplificare il processo di divisione delle spese comuni.
 
 Il lavoro è stato svolto come elaborato finale per il corso di Progettazione di Interfacce Grafiche. 
+
+
+
+
+## Il processo
 
 La progettazione ha seguito il modello del *Double Diamond*.
 
 ![Double Diamond]({{site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
 
+### Discover-Define
 
-
-## Discover-Define
 #### Design Brief
 
 
@@ -68,10 +95,13 @@ L'applicazione permetterà alle persone di aggiungere delle spese, specificare c
 ## Develop-Deliver 
 
 ![DesignConcept]({{site.baseurl }}/assets/img/dividendo/design concept.png)
-MOCKUP
+
+<!-- MOCKUP
+
 AGGIUNGI SPESA MANUALE
+
 HOMEPAGE
 
 
 Notifiche
-Un aspetto insidioso nella gestione 
+Un aspetto insidioso nella gestione  -->
