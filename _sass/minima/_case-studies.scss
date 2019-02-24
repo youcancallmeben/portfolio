@@ -1,0 +1,9 @@
+blockquote {
+    letter-spacing: -0.3px;
+    border-left: 4px solid darken($brand-color, 5%);
+    // border-left: 4px solid $brand-color;
+}
+
+li {
+    margin-bottom: 0.5em;
+}

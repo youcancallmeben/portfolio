@@ -12,28 +12,27 @@ card-image: dividendo/aggiungiSpesaManuale.svg
 L'obiettivo del progetto è aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze.
 
 Nel concreto queste esperienze potrebbero ad esempio essere la condivisione di un appartamento (es: tra studenti universitari) oppure esperienze tra amici (es: viaggio all’estero, giornata sulle piste da sci ecc). 
-> Gestire le spese comuni spesso richiede tempo, provoca imbarazzo e comporta numerosi calcoli, non sarebbe bello se ci fosse una soluzione che permettesse di semplificare tutto il processo?
-
-
-## Le barriere
-Una divisione equa delle spese potrebbe non sembrare una sfida impegnativa, ma può facilmente trasformarsi in un compito infame e portare a sentimenti di *frustrazione*, per questo tante persone scelgono di non effettuarlo proprio.
 
 > Spesso il problema non sono i soldi, ma —ancora peggio— l'impressione di sentirsi fregati dai propri amici.
+
+tensione ed imbarazzo che potrebbero crearsi per questioni di soldi
+
+## Gli ostacoli
+Una divisione equa delle spese potrebbe non sembrare una sfida impegnativa, ma può facilmente trasformarsi in un compito ingrato e portare a sentimenti di *frustrazione*, per questo tante persone scelgono di non effettuarlo proprio.
+
+> Gestire le spese comuni spesso richiede tempo, provoca imbarazzo e comporta numerosi calcoli, non sarebbe bello se ci fosse una soluzione che permettesse di semplificare tutto il processo?
 
 Cercare di ricordarsi ogni spesa fatta senza alcuna nota scritta è infattibile se le spese sono numerose. 
 
 Una tecnica spesso adottata è di tenere lo scontrino e di posporre il problema. Nella teoria questa soluzione funziona, ma nella pratica possono presentarsi diversi problemi: 
 
-* La divisione è dispendiosa in termini di tempo e richiede una concentrazione mentale che può essere inappropriata per la situazione in cui ci si trova. 
-
-* I calcoli da effettuare possono scalare di complessità rapidamente ( Alcuni prodotti da dividere solo tra alcuni, )
+* **Tempo**: La divisione è dispendiosa in termini di tempo e richiede una concentrazione mentale che può essere inappropriata per la situazione in cui ci si trova. 
+* **Calcoli**: I calcoli da effettuare possono scalare di complessità rapidamente ( Alcuni prodotti da dividere solo tra alcuni, )
 Alcune volte all’interno dello scontrino ci sono prodotti da dividere, mentre altri no. Questo aggiunge un ulteriore livello di complessità nei calcoli.
+* **Fatica mentale**: Anche una volta effettuati tutti i calcoli, spesso non si hanno a disposizione esattamente i contanti richiesti. Questo porta a tenere il debito “aperto” e a doversene ricordare nei giorni successivi generando *fatica mentale*
+* **Imbarazzo**: nel ricordare ad altri che si hanno debiti ancora aperti o nel ricordare ad altri spese ritenute molto piccole (nota: la concezione di *piccola spesa* varia molto da persona a persona)
 
-* Può causare imbarazzo anche dover ricordare ad altri di aver effettuato spese ritenute molto piccole (nota: la concezione di *piccola spesa* varia molto da persona a persona).
-
-* Anche una volta effettuati tutti i calcoli, spesso non si hanno a disposizione esattamente i contanti richiesti. Questo porta a tenere il debito “aperto” e a doversene ricordare nei giorni successivi *creando fatica mentale*
-
-* Imbarazzo nel ricordare ad altri dei debiti non ancora saldati. 
+<!-- * Può causare imbarazzo anche dover ricordare ad altri di aver effettuato spese ritenute molto piccole (nota: la concezione di *piccola spesa* varia molto da persona a persona). -->
 
 > Il problema della divisione dei soldi può essere affrontato in maniera diverse. è importante che la nostra soluzione non obblighi ad utilizzare un singolo metodo ma sia **flessibile** e si adatti alle esigenze.
 
