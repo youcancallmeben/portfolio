@@ -34,7 +34,7 @@ permalink: /works/
 
             </div>
             <div data-aos="fade-down-left" class="featuredImage">
-              <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.image }}" class="featured"></object>
+              <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.card-image }}" class="featured"></object>
             </div>
           </div>
         </a>
