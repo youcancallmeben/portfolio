@@ -6,7 +6,6 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -94,11 +93,11 @@ li {
 /**
  * Headings
  */
- h1, h2{
+h1{
   font-family: $heading-font-family;
   font-weight: $base-font-weight;
 }
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: $base-font-family;
   font-weight: 600;
   color:black;

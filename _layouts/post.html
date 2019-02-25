@@ -4,15 +4,43 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    <img src="{{ site.baseurl }}{{ page.first-image }}" class="full-width first-image">
+    <div class="grid-cont full-width">
+      <div class="periodo">
+        <h5>Periodo:</h5>
+        {{ page.periodo }}
+      </div>
+      <div class="ruolo">
+          <h5>Ruolo:</h5>
+
+          {{ page.ruolo }}
+      </div>
+      <div class="tools">
+          <h5>Tools utilizzati:</h5>
+
+          {{ page.tools }}
+      </div>
+      <div class="team">
+          <h5>Team:</h5>
+
+          {{ page.team }}
+      </div>
+      <div class="overview">
+          <h5>Overview:</h5>
+
+          {{ page.overview }}
+      </div>
+    </div>
+
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+    <!-- <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}</p> -->
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

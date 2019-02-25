@@ -7,3 +7,38 @@ blockquote {
 li {
     margin-bottom: 0.5em;
 }
+
+.grid-cont {
+    // padding: 2em;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-column-gap: 1em;
+    justify-items: center;
+}
+
+.full-width {
+    width: 98vw;
+    position: relative;
+    left: 48%;
+    right: 49%;
+    margin-left: -49vw;
+    margin-right: -49vw;
+    max-width: 98vw;
+    // max-height: 60vh;
+
+    img {
+        width: 100%;
+    }
+}
+
+.first-image {
+    // position: relative;
+    // position: absolute;
+    top:0;
+    height: 100vh;
+    display: block;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:$brand-color !important;
+}
