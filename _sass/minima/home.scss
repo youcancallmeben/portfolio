@@ -1,8 +1,15 @@
 #onboarding {
     display: grid;
-    grid-template-rows: 50vh 2fr;
+    grid-template-rows: calc(60vh - 56px) 40vh;
     align-items: center;
-    margin-bottom: 10vh;
+    // margin-bottom: 10vh;
+
+    // #intro {
+    //     display: flex;
+    //     flex-direction: row;
+    //     align-items: center;
+    // }
+    
 
     #hero {
         width: 100%;
@@ -69,3 +76,4 @@
         stroke-width: 2px;
     }
 }
+

@@ -5,10 +5,10 @@
 layout: home
 list_title: Case studies
 svg: firstImage.svg
-intro: "Hi 👋 <br> my name is Beniamino, but <strong>you can call me Ben</strong>"
-# contactme: "Feel free to <a href=\"mailto:mail@youcancallmeben.design?subject=Hei Ben!\">contact me</a>  "
 ---
 
+Hi 👋 <br>
+my name is Beniamino, but **you can call me Ben** <br>
 I'm an Web Designer based in Trento 🇮🇹<br>
 I like micro-interactions and chill music. <br>
 
