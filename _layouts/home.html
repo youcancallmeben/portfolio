@@ -24,7 +24,10 @@ layout: default
     </div>
   
   <div id="workSection">
-      <h2 class="post-list-heading"><a name="works"></a> {{ page.list_title | default: "Posts" }}</h2>
+      <h2 class="post-list-heading">
+        <a name="works"></a> 
+        {{ page.list_title | default: "Posts" }}
+      </h2>
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">
 
@@ -44,13 +47,6 @@ layout: default
                 <div class="tag">{{ tag }}</div>
                 {% endfor %}
               </div>
-
-              <!-- {%- if site.show_excerpts -%}
-            <div class="excerpt">
-              {{ post.excerpt }}
-            </div>
-            {%- endif -%} -->
-
             </div>
             <div data-aos="fade-down-left" class="featuredImage">
               <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.card-image }}" class="featured"></object>
