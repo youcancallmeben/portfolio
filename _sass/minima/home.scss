@@ -19,8 +19,53 @@
     display: block;
 }
 
-.stay-in-touch {
-    text-align: center;
-    margin-bottom: 0;
+.svg-wrapper {
+    margin: 0 auto;
+    width: 320px;
+    position: relative;
+
+    &:hover .shape {
+        -webkit-animation: 0.5s draw linear forwards;
+        animation: 0.5s draw linear forwards;
+    }
+
+    .shape {
+        fill: transparent;
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+        stroke: $brand-color;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            color: darken($brand-color, 10%);
+            text-decoration: none;
+        }
+
+        #mailme {
+            position: absolute;
+        }
+    }
 }
 
+@keyframes draw {
+    0% {
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+    }
+
+    100% {
+        stroke-dasharray: 760;
+        stroke-dashoffset: 0;
+        stroke-width: 2px;
+    }
+}
