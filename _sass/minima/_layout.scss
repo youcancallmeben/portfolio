@@ -2,15 +2,21 @@
  * Site header
  */
 .site-header {
-  // border-top: 5px solid $brand-color;
-  // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  // box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+	background-color: rgba(251, 250, 243, 0.9);
+  backdrop-filter: blur(10px);
+    // border-top: 5px solid $brand-color;
+  // border-bottom: 1px solid $grey-color-light;
   // Positioning context for the mobile navigation icon
-  position: relative;
+  // position: relative;
 
-  :hover{
+  :hover {
     text-decoration: none;
   }
 }
@@ -18,13 +24,13 @@
 .site-title {
   @include relative-font-size(2);
   font-weight: 400;
-  // letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  font-family:'Abril Fatface', cursive;
-        // font-weight: 400; font-size: 2em;
-        // // position: relative;
-        // text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  // letter-spacing: -1px;
+  // font-weight: 400; font-size: 2em;
+  // // position: relative;
+  // text-align: center;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -46,7 +52,7 @@
   text-align: right;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -57,7 +63,7 @@
     padding-top: 10px;
     text-align: center;
 
-    > svg path {
+    >svg path {
       fill: $grey-color-dark;
     }
   }
@@ -71,12 +77,12 @@
     cursor: pointer;
   }
 
-  input ~ .trigger {
+  input~.trigger {
     clear: both;
     display: none;
   }
 
-  input:checked ~ .trigger {
+  input:checked~.trigger {
     display: block;
     padding-bottom: 5px;
   }
@@ -91,6 +97,7 @@
     &:not(:last-child) {
       margin-right: 0;
     }
+
     margin-left: 20px;
   }
 
@@ -108,7 +115,7 @@
       display: none;
     }
 
-    input ~ .trigger {
+    input~.trigger {
       display: block;
     }
 
@@ -119,6 +126,7 @@
       &:not(:last-child) {
         margin-right: 20px;
       }
+
       margin-left: auto;
     }
   }
@@ -154,7 +162,7 @@
 
 .footer-col {
   width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-  width:         calc(100% - (#{$spacing-unit} / 2));
+  width: calc(100% - (#{$spacing-unit} / 2));
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 }
@@ -162,28 +170,28 @@
 .footer-col-1,
 .footer-col-2 {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width:         calc(50% - (#{$spacing-unit} / 2));
+  width: calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-  width:         calc(100% - (#{$spacing-unit} / 2));
+  width: calc(100% - (#{$spacing-unit} / 2));
 }
 
 @media screen and (min-width: $on-large) {
   .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -199,7 +207,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  // padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
 
@@ -215,7 +223,7 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
+  >li {
     margin-bottom: $spacing-unit*3;
   }
 }
@@ -282,17 +290,28 @@
 .social-media-list {
   display: table;
   margin: 0 auto;
+
   li {
     float: left;
     margin: 0 5px;
-    &:first-of-type { margin-left: 0 }
-    &:last-of-type { margin-right: 0 }
+
+    &:first-of-type {
+      margin-left: 0
+    }
+
+    &:last-of-type {
+      margin-right: 0
+    }
+
     a {
       display: block;
       padding: $spacing-unit / 4;
       border: 1px solid $grey-color-light
     }
-    &:hover .svg-icon { fill: currentColor; }
+
+    &:hover .svg-icon {
+      fill: currentColor;
+    }
   }
 }
 
@@ -302,5 +321,5 @@
  */
 .one-half {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width:         calc(50% - (#{$spacing-unit} / 2));
+  width: calc(50% - (#{$spacing-unit} / 2));
 }

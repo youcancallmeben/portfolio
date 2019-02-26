@@ -5,7 +5,7 @@ date:           2019-01-26 17:30:58 +0100
 categories:     jekyll update
 tag:            [ux, prototyping, mobile]
 permalink:      dividendo
-card-image:     dividendo/aggiungiSpesaManuale.svg
+card-image:     img/dividendo/cardMockup.svg
 first-image:    /assets/img/dividendo/Overview.svg
 periodo:        27 dic 2018 - 14 gen 2019 (18 giorni)
 ruolo:          Ricerca, Progettazione, Prototipo, Motion
