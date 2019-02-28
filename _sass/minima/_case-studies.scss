@@ -1,44 +1,55 @@
+.initial-details {
+    // margin: $spacing-unit*2 0;
+    // padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-column-gap: 2em;
+    // justify-items: center;
+    h3,h4,h5{
+        margin-bottom: 0;
+    }
+}
+
+article section {
+    margin: $spacing-unit*2 0;
+}
+
 blockquote {
     letter-spacing: -0.3px;
     border-left: 4px solid darken($brand-color, 5%);
-    // border-left: 4px solid $brand-color;
 }
 
 li {
     margin-bottom: 0.5em;
 }
 
-.grid-cont {
-    // padding: 2em;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    grid-column-gap: 1em;
-    justify-items: center;
-}
-
-.full-width {
-    width: 98vw;
-    position: relative;
-    left: 48%;
-    right: 49%;
-    margin-left: -49vw;
-    margin-right: -49vw;
-    max-width: 98vw;
-    // max-height: 60vh;
-
-    img {
-        width: 100%;
-    }
+#dividendoFirst {
+    background-image: url("/assets/img/dividendo/Overview.svg");
+    background-color: #4a5f7c;
+    
 }
 
 .first-image {
+    top: 0;
+    height: 100vh;
+    // display: block;
+    margin-left: calc(51% - 50vw);
+    margin-right: calc(51% - 50vw);
+    background-size: cover;
     // position: relative;
     // position: absolute;
-    top:0;
-    height: 100vh;
-    display: block;
 }
 
-.slick-prev:before, .slick-next:before { 
-    color:$brand-color !important;
+.slick-prev:before,
+.slick-next:before {
+    color: $brand-color !important;
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+}
+
+.constraint {
+    max-width: 300px;
 }

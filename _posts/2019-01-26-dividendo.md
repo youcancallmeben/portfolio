@@ -7,57 +7,62 @@ tag:            [ux, prototyping, mobile]
 permalink:      dividendo
 card-image:     img/dividendo/cardMockup.svg
 first-image:    /assets/img/dividendo/Overview.svg
-periodo:        27 dic 2018 - 14 gen 2019 (18 giorni)
-ruolo:          Ricerca, Progettazione, Prototipo, Motion
-tools:          Figma, ProtoPie
-team:           io e MCB
-overview:       
-
+periodo:        3 settimane  <br> (gennaio 2019)
+ruolo:          User Personas, <br> Prototyping, <br> Motion
+tools:          Figma, <br> Sketch, <br> ProtoPie
+# team:           io e MCB
+overview:       Processo di design di un'app per gestire le spese comuni. Seguite le guideline di Google Material Design per Android.
 ---
 
-<!-- Pippone sul seguire un design system -->
+<section id="designProblem" markdown="1">
 
 ## The design problem
 L'obiettivo del progetto è aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze.
 
 Nel concreto queste esperienze potrebbero ad esempio essere la condivisione di un appartamento (es: tra studenti universitari) oppure esperienze tra amici (es: viaggio all’estero, giornata sulle piste da sci ecc). 
 
-> Spesso il problema non sono i soldi, ma —ancora peggio— l'impressione di sentirsi fregati dai propri amici.
+> Spesso il problema non sono i soldi, ma la tensione e l'imbarazzo che potrebbero nascere
+</section>
 
-tensione ed imbarazzo che potrebbero crearsi per questioni di soldi
-
+<section id="obstacles" markdown="1">
 
 ## Gli ostacoli
-Una divisione equa delle spese potrebbe non sembrare una sfida impegnativa, ma può facilmente trasformarsi in un compito ingrato e portare a sentimenti di *frustrazione*, per questo tante persone scelgono di non effettuarlo proprio.
+Una divisione equa delle spese potrebbe non sembrare una sfida impegnativa, ma può facilmente trasformarsi in un compito ingrato e portare a sentimenti di *frustrazione*.
 
 > Gestire le spese comuni spesso richiede tempo, provoca imbarazzo e comporta numerosi calcoli, non sarebbe bello se ci fosse una soluzione che permettesse di semplificare tutto il processo?
 
 Cercare di ricordarsi ogni spesa fatta senza alcuna nota scritta è infattibile se le spese sono numerose. <br>
-Una tecnica spesso adottata è di tenere lo scontrino e di posporre il problema. Nella teoria questa soluzione funziona, ma nella pratica possono presentarsi diversi problemi: 
+Una tecnica spesso adottata è di tenere lo scontrino e di posporre il problema. 
 
+<details markdown="1" >
+<summary> Nella teoria questa soluzione funziona, ma nella pratica possono presentarsi diversi problemi: </summary>
 * **Tempo**: La divisione è dispendiosa in termini di tempo e richiede una concentrazione mentale che può essere inappropriata per la situazione in cui ci si trova. 
 * **Calcoli**: I calcoli da effettuare possono scalare di complessità rapidamente ( Alcuni prodotti da dividere solo tra alcuni, )
 Alcune volte all’interno dello scontrino ci sono prodotti da dividere, mentre altri no. Questo aggiunge un ulteriore livello di complessità nei calcoli.
 * **Fatica mentale**: Anche una volta effettuati tutti i calcoli, spesso non si hanno a disposizione esattamente i contanti richiesti. Questo porta a tenere il debito “aperto” e a doversene ricordare nei giorni successivi generando *fatica mentale*
 * **Imbarazzo**: nel ricordare ad altri che si hanno debiti ancora aperti o nel ricordare ad altri spese ritenute molto piccole (nota: la concezione di *piccola spesa* varia molto da persona a persona)
+</details>
+
+</section>
 
 
-
+<section id="process" markdown="1">
 
 ## Il processo
-La progettazione ha seguito il modello del *Double Diamond*.
+Abbiamo seguito il design process model del [Double Diamond](https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond) ideato dal British Design Council.
 
 {:.full-width}
-![Double Diamond]({{site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
-
-### Discover-Define
-Questa fase cerchiamo di capire perché il nostro utente dovrebbe utilizzare la nostra soluzione: quali potrebbero essere le sue *motivazioni* e i suoi *desideri*.
+![Double Diamond]({{ site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
 
 #### Design Brief
+> Aumentare l'efficienza e **semplificare il processo di divisione dei costi** tra persone che condividono esperienze
 
-{:.full-width}
-![Design Brief]({{site.baseurl }}/assets/img/dividendo/design brief.png)
+</section>
 
+<section id="discover" markdown="1">
+
+### Discover
+Questa fase cerchiamo di capire perché il nostro utente dovrebbe utilizzare la nostra soluzione: quali potrebbero essere le sue *motivazioni* e i suoi *desideri*.
 
 #### User research
 Abbiamo effettuato diverse interviste a persone per scoprire come se la vivendo rispetto al problema, per vedere se fosse effettivamente percepito e in che dimensione.
@@ -65,30 +70,34 @@ Abbiamo utilizzato tecniche di guerriglia research.
 
 Dalla ricerca siamo riusciti ad effettuare una analisi degli stakeholders, abbiamo esaminato meglio il mondo gli oggetti e i processi del dominio.
 
-> Il problema della divisione dei soldi può essere affrontato in maniera diverse. è importante che la nostra soluzione non obblighi ad utilizzare un singolo metodo ma sia **flessibile** e si adatti alle esigenze.
+</section>
 
+<section id="define" markdown="1">
+
+## Define
 #### Personas
 Per comunicare efficacemente i risultati emersi dalla user research abbiamo pensato di estrapolare 3 personas significative.
 Ognuna di esse è accompagnata da un activity scenario per aiutare il lettore a contestualizzare rispetto al problema.
 
-{:.multiple-items}
+{:.single-item}
 ![Katia]({{site.baseurl }}/assets/img/dividendo/katia.jpg)
 ![Jimmy]({{site.baseurl }}/assets/img/dividendo/jimmy.jpg)
 ![Bob]({{site.baseurl }}/assets/img/dividendo/bob.jpg)
 
 Abbiamo pensato di approfondire ogni soggetti mediante lo strumento dell'empathy map.
 
-{:.multiple-items}
+{:.single-item}
 ![Empathy Map Katia]({{site.baseurl }}/assets/img/dividendo/EM Katia.jpg)
 ![Empathy Map Jimmy]({{site.baseurl }}/assets/img/dividendo/EM Jimmy.jpg)
 ![Empathy Map Bob]({{site.baseurl }}/assets/img/dividendo/EM Bob.jpg)
  
 Dall'empathy map abbiamo potuto trarre interessanti considerazioni, le quali ci hanno permesso di discutere e di stilare numerosi Paint point, clusterizzati poi in 9 elementi distinti.
 
-Nel nostro progetto I pain point sono stati l'elemento portante, sono stati il punto di riferimento per tutta la parte di progettazione dell'applicazione. 
-Ogni volta che ci trovavamo di fronte a scelte nella prioritizazione dei task o quale fosse la strada giusta, ci chiedavamo se dai Paint point potevamlo trarne consiglio.
+> Il problema della divisione dei soldi può essere affrontato in maniera diverse. è importante che la nostra soluzione non obblighi ad utilizzare un singolo metodo ma sia **flessibile** e si adatti alle esigenze.
 
-{:.multiple-items}
+Nel nostro progetto I pain point sono stati il punto di riferimento per tutta la parte di progettazione dell'applicazione. Ogni volta che ci trovavamo di fronte a scelte nella prioritizazione dei task o quale fosse la strada giusta, ci chiedavamo se dai Paint point potevamlo trarne consiglio.
+
+{:.single-item}
 ![Pain Point Katia]({{site.baseurl }}/assets/img/dividendo/ppKatia.jpg)
 ![Pain Point Jimmy]({{site.baseurl }}/assets/img/dividendo/ppJimmy.jpg)
 ![Pain Point Bob]({{site.baseurl }}/assets/img/dividendo/ppBob.jpg)
@@ -98,16 +107,20 @@ Per questo motivo I pain point Sono stati il punto di riferimento durante tutta 
 
 #### Vincoli
 Fin dall'inizio il progetto ha avuto l'esplicito vincolo di essere una applicazione mobile per Android, che seguisse in maniera rigorosa le guidelines del material design.
+<!-- Pippone sul seguire un design system -->
 
-#### Vision Condivisa (Design Brief esteso)
+#### Vision Condivisa 
 A questo punto abbiamo riassunto tutti gli elementi della research in alcuni brevi paragrafi dove fossero elencati i nostri obiettivi rispetto alla progettazione dell'applicazione. 
 
 Abbiamo scelto di concentrarci su alcuni use case specifici come la convivenza tra persone e delle esperienze tra un gruppo di amici (come una vacanza o una giornata sulle piste da sci).
 Per fare in modo che queste esperienze non siano mutualmente esclusive, abbiamo pensato di introdurre l'uso di gruppi, in modo che le  possano essere gestite sia le spese per la casa che una giornata sulle piste.
 
 L'applicazione permetterà alle persone di aggiungere delle spese, specificare chi le ha effettuate e tra chi dovrà essere divisa. Naturalmente tutta la parte di effettuare le divisioni è affidata all'applicazione.
+</section>
 
-## Develop-Deliver 
+<section id="develop" markdown="1">
+
+## Develop
 
 In questa fase volevamo concretizzare le nostre idee e i dati raccolti dalla fase di ricerca. L'obiettivo era definire cosa avremmo creato e come l'avremmo mostrato. 
 
@@ -127,27 +140,31 @@ La situazione è sfuggita rapidamente di mano, questo è il pavimento della stan
 
 Arrivati ad un punto di accordo comune rispetto alla navigazione abbiamo deciso di fare un semplice schizzo.
 
-![Lo-Fi Prototype]({{site.baseurl }}/assets/img/dividendo/loFi prototype.jpg)
+![Lo-Fi Prototype]({{site.baseurl }}/assets/img/dividendo/loFiPrototype.jpg)
 
 #### Hi-fi prototype
 
-{:.multiple-items}
-![Home]({{site.baseurl }}/assets/img/dividendo/Dividendo Appartamento.svg)
-![Notifiche]({{site.baseurl }}/assets/img/dividendo/Notifiche.svg)
+<div class="central">
+<div class="constraint" markdown="1">
+
+{: .single-item}
+<!-- ![Home]({{site.baseurl }}/assets/img/dividendo/Dividendo Appartamento.svg) -->
+<!-- ![Notifiche]({{site.baseurl }}/assets/img/dividendo/Notifiche.svg) -->
 ![Aggiungi Da Scontrino]({{site.baseurl }}/assets/img/dividendo/aggiungiScontrinoCorto.gif)
 ![Salda]({{site.baseurl }}/assets/img/dividendo/SaldaRicorda.gif)
+</div>
+</div>
+</section>
 
+<section id="deliver" markdown="1">
 
+## Deliver
 #### Interactive Prototype
 
+{: .central}
 ![qrCode]({{site.baseurl }}/assets/img/dividendo/qrCode.png)
 
 [Link al prototipo](https://share.protopie.io/648wG6keh2D)
-
-
-
-
-
 
 <!-- 
 lo- fi prototype
@@ -162,10 +179,14 @@ link al prototipo
 storico
  -->
 
+</section>
+
+<section id="notes" markdown="1">
 
 ### Note finali
 
 Questo lavoro è stato ispirato da una nostra personale esigenza di semplificare il processo di divisione delle spese comuni.
+
 Il lavoro è stato svolto come elaborato finale per il corso di Progettazione di Interfacce Grafiche. 
 
 <!-- MOCKUP
@@ -177,3 +198,5 @@ HOMEPAGE
 
 Notifiche
 Un aspetto insidioso nella gestione  -->
+
+</section>
