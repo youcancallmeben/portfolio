@@ -5,13 +5,14 @@ date:           2019-01-26 17:30:58 +0100
 categories:     jekyll update
 tag:            [ux, prototyping, mobile]
 permalink:      dividendo
-card-image:     img/dividendo/cardMockup.svg
-first-image:    /assets/img/dividendo/Overview.svg
+card-image:     img/dividendo/cardMockup.png
+first-image:    /assets/img/dividendo/Overview.png
 periodo:        3 settimane  <br> (gennaio 2019)
 ruolo:          User Personas, <br> Prototyping, <br> Motion
 tools:          Figma, <br> Sketch, <br> ProtoPie
 # team:           io e MCB
-overview:       Processo di design di un'app per gestire le spese comuni. Seguite le guideline di Google Material Design per Android.
+# overview:       Progettazione un'app per gestire le spese condivise. Seguite le guideline di Google Material Design per Android.
+overview:       Aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze
 ---
 
 <section id="designProblem" markdown="1">
@@ -79,14 +80,14 @@ Dalla ricerca siamo riusciti ad effettuare una analisi degli stakeholders, abbia
 Per comunicare efficacemente i risultati emersi dalla user research abbiamo pensato di estrapolare 3 personas significative.
 Ognuna di esse è accompagnata da un activity scenario per aiutare il lettore a contestualizzare rispetto al problema.
 
-{:.single-item}
+{:.responsive}
 ![Katia]({{site.baseurl }}/assets/img/dividendo/katia.jpg)
 ![Jimmy]({{site.baseurl }}/assets/img/dividendo/jimmy.jpg)
 ![Bob]({{site.baseurl }}/assets/img/dividendo/bob.jpg)
 
 Abbiamo pensato di approfondire ogni soggetti mediante lo strumento dell'empathy map.
 
-{:.single-item}
+{:.responsive}
 ![Empathy Map Katia]({{site.baseurl }}/assets/img/dividendo/EM Katia.jpg)
 ![Empathy Map Jimmy]({{site.baseurl }}/assets/img/dividendo/EM Jimmy.jpg)
 ![Empathy Map Bob]({{site.baseurl }}/assets/img/dividendo/EM Bob.jpg)
@@ -97,7 +98,7 @@ Dall'empathy map abbiamo potuto trarre interessanti considerazioni, le quali ci 
 
 Nel nostro progetto I pain point sono stati il punto di riferimento per tutta la parte di progettazione dell'applicazione. Ogni volta che ci trovavamo di fronte a scelte nella prioritizazione dei task o quale fosse la strada giusta, ci chiedavamo se dai Paint point potevamlo trarne consiglio.
 
-{:.single-item}
+{:.responsive}
 ![Pain Point Katia]({{site.baseurl }}/assets/img/dividendo/ppKatia.jpg)
 ![Pain Point Jimmy]({{site.baseurl }}/assets/img/dividendo/ppJimmy.jpg)
 ![Pain Point Bob]({{site.baseurl }}/assets/img/dividendo/ppBob.jpg)
@@ -106,14 +107,14 @@ Sviluppare un prodotto che rispondesse a dei reali bisogni, desideri ed emozioni
 Per questo motivo I pain point Sono stati il punto di riferimento durante tutta la parte successiva del processo.
 
 #### Vincoli
-Fin dall'inizio il progetto ha avuto l'esplicito vincolo di essere una applicazione mobile per Android, che seguisse in maniera rigorosa le guidelines del material design.
+Fin dall'inizio il progetto ha avuto l'esplicito vincolo di essere una applicazione mobile per Android, che seguisse in maniera rigorosa le **guidelines del material design**.
 <!-- Pippone sul seguire un design system -->
 
 #### Vision Condivisa 
 A questo punto abbiamo riassunto tutti gli elementi della research in alcuni brevi paragrafi dove fossero elencati i nostri obiettivi rispetto alla progettazione dell'applicazione. 
 
 Abbiamo scelto di concentrarci su alcuni use case specifici come la convivenza tra persone e delle esperienze tra un gruppo di amici (come una vacanza o una giornata sulle piste da sci).
-Per fare in modo che queste esperienze non siano mutualmente esclusive, abbiamo pensato di introdurre l'uso di gruppi, in modo che le  possano essere gestite sia le spese per la casa che una giornata sulle piste.
+Per fare in modo che queste esperienze non siano mutualmente esclusive, abbiamo pensato di introdurre l'uso di **gruppi**, in modo che le  possano essere gestite sia le spese per la casa che una giornata sulle piste.
 
 L'applicazione permetterà alle persone di aggiungere delle spese, specificare chi le ha effettuate e tra chi dovrà essere divisa. Naturalmente tutta la parte di effettuare le divisioni è affidata all'applicazione.
 </section>
@@ -147,7 +148,7 @@ Arrivati ad un punto di accordo comune rispetto alla navigazione abbiamo deciso 
 <div class="central">
 <div class="constraint" markdown="1">
 
-{: .single-item}
+{: .responsive}
 <!-- ![Home]({{site.baseurl }}/assets/img/dividendo/Dividendo Appartamento.svg) -->
 <!-- ![Notifiche]({{site.baseurl }}/assets/img/dividendo/Notifiche.svg) -->
 ![Aggiungi Da Scontrino]({{site.baseurl }}/assets/img/dividendo/aggiungiScontrinoCorto.gif)

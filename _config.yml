@@ -24,9 +24,9 @@ footer: "Want to keep in touch? You can find me on:"
 minima:
   social_links:
     github: SRFeesha
-    dribbble: SRFeesha
+    # dribbble: SRFeesha
     linkedin: beniamino-marini
-    telegram: youcancallmeben
+    # telegram: youcancallmeben
     codepen: youcancallmeben
 
 

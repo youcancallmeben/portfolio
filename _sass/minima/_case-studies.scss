@@ -1,22 +1,49 @@
 .initial-details {
-    // margin: $spacing-unit*2 0;
-    // padding: 2em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-areas: "overview overview ruolo tools periodo";
     grid-column-gap: 2em;
-    // justify-items: center;
     h3,h4,h5{
         margin-bottom: 0;
     }
+    p {
+        font-size: $small-font-size;
+    }
+    .periodo {
+        grid-area: periodo;
+    }
+    .ruolo {
+        grid-area: ruolo;
+    }
+    .tools {
+        grid-area: tools;
+    }
+    .overview{
+        grid-area: overview;
+    }
+
+    @media screen and (max-width: $on-palm) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+        " overview  overview    overview "
+        " ruolo     tools       periodo"
+    }
 }
+
+
+
 
 article section {
     margin: $spacing-unit*2 0;
 }
 
 blockquote {
-    letter-spacing: -0.3px;
+    // letter-spacing: -0.3px;
     border-left: 4px solid darken($brand-color, 5%);
+    font-size: $base-font-size*1.5;
+    margin: $spacing-unit 0;
 }
 
 li {
@@ -24,20 +51,18 @@ li {
 }
 
 #dividendoFirst {
-    background-image: url("/assets/img/dividendo/Overview.svg");
+    background-image: url("/assets/img/dividendo/Overview.png");
     background-color: #4a5f7c;
-    
 }
 
 .first-image {
     top: 0;
     height: 100vh;
-    // display: block;
-    margin-left: calc(51% - 50vw);
-    margin-right: calc(51% - 50vw);
+    // metto a 51% per evitare problemi con la barra laterale di windows
+    margin-left: calc(52% - 50vw);
+    margin-right: calc(52% - 50vw);
     background-size: cover;
-    // position: relative;
-    // position: absolute;
+    margin-top: 0;
 }
 
 .slick-prev:before,

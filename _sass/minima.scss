@@ -5,7 +5,7 @@
 // $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $heading-font-family: 'Abril Fatface', cursive;
 $base-font-family: 'Lato', sans-serif;
-$base-font-size:   16px !default;
+$base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -40,6 +40,7 @@ $on-large:         $on-laptop !default;
 // }
 // Notice the following mixin uses max-width, in a deprecated, desktop-first
 // approach, whereas media queries used elsewhere now use min-width.
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;

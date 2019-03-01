@@ -5,43 +5,33 @@ layout: default
 
   <header class="post-header">
     <section class="first-image" id="dividendoFirst">
-      <!-- <img src="{{ site.baseurl }}{{ page.first-image }}"> -->
     </section>
 
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
     <section class="initial-details full-width">
-      <div class="periodo">
-        <h4>Periodo</h4>
-        {{ page.periodo }}
+      <div class="overview">
+        <h4>Design Brief</h4>
+        <p>{{ page.overview }}</p>
       </div>
       <div class="ruolo">
         <h4>Ruolo</h4>
-        {{ page.ruolo }}
+        <p>{{ page.ruolo }}</p>
       </div>
       <div class="tools">
         <h4>Tools</h4>
-        {{ page.tools }}
+        <p>{{ page.tools }}</p>
       </div>
+                      <div class="periodo">
+                        <h4>Periodo</h4>
+                        <p>{{ page.periodo }}</p>
+                      </div>
       <!-- <div class="team">
-            <h5>Team:</h5>
-            {{ page.team }} 
-        </div> -->
-      <div class="overview">
-        <h4>Overview</h4>
-        {{ page.overview }}
-      </div>
+          <h5>Team:</h5>
+          {{ page.team }} 
+      </div> -->
     </section>
   </header>
-
-    <!-- <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-      {%- endif -%}</p> -->
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
