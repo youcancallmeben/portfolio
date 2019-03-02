@@ -2,12 +2,6 @@
 $(document).ready(function () {
   AOS.init();
 
-  // $('.single-item').slick({
-  //   arrows: false,
-  //   dots: true,
-  //   infinite: true,
-  // });
-
   $('.responsive').slick({
     arrows: true,
     dots: true,
@@ -40,6 +34,7 @@ $(document).ready(function () {
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
+
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -48,7 +43,10 @@ window.onscroll = function() {
     document.getElementsByClassName("site-header")[0].style.top = "-61px";
   }
   prevScrollpos = currentScrollPos;
-  
 } 
+
+$('button').on('click', function(){
+  $('body').toggleClass('open');
+});
 
 

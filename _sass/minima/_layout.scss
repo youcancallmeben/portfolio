@@ -10,7 +10,7 @@
   z-index: 100;
 	background-color: rgba(251, 250, 243, 0.9);
   backdrop-filter: blur(10px);
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  transition: top 0.25s; /* Transition effect when sliding down (and up) */
 
   // box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
     // border-top: 5px solid $brand-color;
@@ -45,6 +45,7 @@
 }
 
 .site-nav {
+  display: none; //hamburger in azione
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
@@ -52,6 +53,7 @@
   border: 1px solid $grey-color-light;
   border-radius: 5px;
   text-align: right;
+
 
   .nav-trigger {
     display: none;
