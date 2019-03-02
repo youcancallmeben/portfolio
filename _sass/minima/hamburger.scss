@@ -3,8 +3,8 @@
 $bp-small: 500px;
 $bp-arrow: 700px;
 $font-primary: 'Lusitana', sans-serif;
-$color: $brand-color;
-$color-bg: #fcfcf4;
+$color: $blue-color;
+$color-bg: $background-color;
 $color-dark: darken($color, 10%);
 $color-lite: lighten($color, 10%);
 
@@ -13,76 +13,6 @@ $color-lite: lighten($color, 10%);
   top: 0; right: 0; bottom: 0; left: 0;
   margin: auto;
 }
-
-// html, body {
-//   margin:0;
-//   padding:0;
-//   height:100%;  
-//   width:100%;
-// }
-
-// body {
-//   background-color: $color-bg;
-//   font-family: $font-primary;
-// }
-
-// p {
-//   font-size: 20px;
-//   line-height: 28px;
-//   margin: 0 0 18px;
-//   span {
-//     position: relative;
-//     display: block;
-//     font-size: 16px;
-//     line-height: 20px;
-//     padding: 12px 20px;
-//     margin-bottom: 24px;
-//     background-color: white;
-//     box-shadow: rgba(black, 0.05) 0px 2px 4px;
-//     &:before {
-//       content: '';
-//       position: absolute;
-//       top: 0; bottom: 0; left: -12px;
-//       margin: auto;
-//       background-color: $color;
-//       width: 24px;
-//       height: 24px;
-//       border-radius: 100%;
-//       box-shadow: rgba(black, 0.1) 0 0 0 3px;
-//     }
-//     &:after {
-//       content: '';
-//       pointer-events: none;
-//       position: absolute;
-//       top: -2px; bottom: 0; left: -6px;
-//       margin: auto;
-//       width: 0;
-//       height: 0;
-//       border-style: solid;
-//       border-width: 0 6px 8px 6px;
-//       border-color: transparent transparent white transparent;
-//     }
-//   }
-// }
-
-// h1 {
-//   font-size: 40px;
-//   font-weight: normal;
-//   line-height: 44px;
-//   text-align: center;
-//   margin-bottom: 18px;
-//   @media (min-width: $bp-small) {
-//     font-size: 60px;
-//     line-height: 64px;
-//   }
-// }
-
-// h3 {
-//   font-size: 24px;
-//   font-weight: normal;
-//   text-align: center;
-//   margin-bottom: 60px;
-// }
 
 ul.menu {
   list-style: none;
@@ -98,13 +28,13 @@ ul.menu {
 .site-header button {
   opacity: 0.6;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
   z-index: 2;
-  top: 24px;
+  top: 20px;
   right: 24px;
   border: none;
-  width: 36px;
-  height: 30px;
+  width: 30px;
+  height: 22px;
   outline: none;
   transition: opacity 0.2s ease-out;
   &:before {
@@ -125,21 +55,17 @@ ul.menu {
   }
   &:after {
     opacity: 0;
-    content: 'X';
-    color: white;
+    content: '\00D7'; // la × in formato unicode
+    color: $background-color;
     position: absolute;
     top: 16px;
     left: -4px;
-    font-family: Arial, sans-serif;
     font-size: 76px;
     line-height: 0;
     transition: opacity 0.4s ease-out;
   }
   &:active {
     transform: translateY(2px);
-  }
-  &:hover {
-    opacity: 1;
   }
   .open & {
     opacity: 1;
@@ -197,40 +123,6 @@ ul.menu {
     opacity: 0;
     text-align: center;
     transform: translate3d(0,36px,0);
-    // &:before {
-    //   content: '';
-    //   @include position-center;
-    //   left: auto;
-    //   background-color: white;
-    //   height: 100%;
-    //   width: 0;
-    //   overflow: hidden;
-    //   transition: width 0.14s ease-out;
-    // }
-    // &:after {
-    //   opacity: 0;
-    //   content: attr(data-text);
-    //   @include position-center;
-    //   color: $color;
-    //   overflow: hidden;
-    //   transform: translate(-24px, 6px);
-    //   transition: transform 0.1s ease-out,
-    //               opacity 0.1s ease-out;
-    // }
-    // &:hover {
-    //   &:before {
-    //     left: 0;
-    //     right: auto;
-    //     width: 100%;
-    //   }
-    //   &:after {
-    //     opacity: 1;
-    //     padding: 0 20px;
-    //     transform: translate(0px, 6px);
-    //     transition: transform 0.2s 0.14s ease-out,
-    //                 opacity 0.2s 0.14s ease-out;
-    //   }
-    // }
     .open & {
       opacity: 1;
       transform: translate3d(0,0,0);
@@ -240,13 +132,13 @@ ul.menu {
         &:nth-child(#{$i}) { transition-delay: $i * 0.1s + 0.65s; }
       }
     }
+    a, a:visited {
+        color: $background-color;
+    }
   }
 } 
 
 article {
-//   padding: 24px;
-//   max-width: 600px;
-//   margin: 60px auto;
   transition: 0.2s ease-out;
   .open & {
     transform: scale(0.92);
@@ -290,6 +182,7 @@ article {
   }
 }
 
+// show only on mobile
 @media screen and (min-width: $on-medium) {
     .site-nav {
         display: inline-block;

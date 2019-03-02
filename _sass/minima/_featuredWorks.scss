@@ -21,6 +21,11 @@
         font-size: 3em;
         z-index: 1;
     }
+
+    &:hover {
+        transition: 0.3s ease all;
+        transform: translateY(-10px);
+    }
 }
 
 #card1 {

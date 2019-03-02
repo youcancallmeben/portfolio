@@ -35,8 +35,8 @@ layout: default
 
       {%- for post in site.posts -%}
       <li class="works">
-        <a class="card-link" href="{{ post.url | relative_url }}">
-          <div data-aos="fade-up" id="card{{ forloop.index }}" class="card container">
+        <!-- <a class="card-link" href="{{ post.url | relative_url }}"> -->
+          <div data-aos="fade-up" id="card{{ forloop.index }}" class="card container bubble">
             <div class="grid-container">
               <div class="title" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="card-title">
@@ -54,7 +54,7 @@ layout: default
               <img alt="DividendoMockup" class="featured" src="/assets/{{ post.card-image }}" />
             </div>
           </div>
-        </a>
+        <!-- </a> -->
       </li>
       {%- endfor -%}
     </ul>
