@@ -7,7 +7,7 @@ tag:            [ux, prototyping, mobile]
 permalink:      dividendo
 card-image:     img/dividendo/cardMockup.png
 first-image:    /assets/img/dividendo/Overview.png
-periodo:        3 settimane  <br> (gennaio 2019)
+periodo:        3 settimane  <br> <em>(gennaio 2019)</em>
 ruolo:          User Personas, <br> Prototyping, <br> Motion
 tools:          Figma, <br> Sketch, <br> ProtoPie
 # team:           io e MCB
@@ -16,7 +16,6 @@ overview:       Aumentare l’efficienza e semplificare il processo di divisione
 ---
 
 <section id="designProblem" markdown="1">
-
 ## The design problem
 L'obiettivo del progetto è aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze.
 
@@ -24,6 +23,7 @@ Nel concreto queste esperienze potrebbero ad esempio essere la condivisione di u
 
 > Spesso il problema non sono i soldi, ma la tensione e l'imbarazzo che potrebbero nascere
 </section>
+
 
 <section id="obstacles" markdown="1">
 
@@ -165,6 +165,7 @@ Arrivati ad un punto di accordo comune rispetto alla navigazione abbiamo deciso 
 {: .central}
 ![qrCode]({{site.baseurl }}/assets/img/dividendo/qrCode.png)
 
+{: .central}
 [Link al prototipo](https://share.protopie.io/648wG6keh2D)
 
 <!-- 
@@ -195,7 +196,6 @@ Il lavoro è stato svolto come elaborato finale per il corso di Progettazione di
 AGGIUNGI SPESA MANUALE
 
 HOMEPAGE
-
 
 Notifiche
 Un aspetto insidioso nella gestione  -->

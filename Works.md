@@ -33,7 +33,7 @@ permalink: /works/
             {%- endif -%} -->
 
             </div>
-            <div data-aos="fade-down-left" class="featuredImage">
+            <div data-aos="fade-down-right" class="featuredImage">
               <object type="image/svg+xml" data="{{ site.baseurl }}/assets/{{ post.card-image }}" class="featured"></object>
             </div>
           </div>

@@ -4,7 +4,7 @@
 
 layout: home
 list_title: Case studies
-svg: firstImage.svg
+hero: firstImage.svg
 ---
 
 Hi 👋 <br>

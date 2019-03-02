@@ -32,15 +32,11 @@
     }
 }
 
-
-
-
 article section {
     margin: $spacing-unit*2 0;
 }
 
 blockquote {
-    // letter-spacing: -0.3px;
     border-left: 4px solid darken($brand-color, 5%);
     font-size: $base-font-size*1.5;
     margin: $spacing-unit 0;
@@ -51,9 +47,22 @@ li {
 }
 
 #dividendoFirst {
-    background-image: url("/assets/img/dividendo/Overview.png");
-    background-color: #4a5f7c;
+    background-image: url("/assets/img/dividendo/on_the_floor.png");
+    background-color: #61c9a8;
 }
+
+.bg-pan-bl {
+	animation: bg-pan-bl 8s both;
+}
+
+ @keyframes bg-pan-bl {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
 
 .first-image {
     top: 0;
