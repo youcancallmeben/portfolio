@@ -1,5 +1,3 @@
-// @import url(https://fonts.googleapis.com/css?family=Lusitana);
-
 $bp-small: 500px;
 $bp-arrow: 700px;
 $font-primary: 'Lusitana', sans-serif;
@@ -57,9 +55,9 @@ ul.menu {
     opacity: 0;
     content: '\00D7'; // la × in formato unicode
     color: $background-color;
-    position: absolute;
-    top: 16px;
-    left: -4px;
+    position: fixed;
+    top: 34px;
+    right: 16px;
     font-size: 76px;
     line-height: 0;
     transition: opacity 0.4s ease-out;

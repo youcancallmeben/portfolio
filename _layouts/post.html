@@ -2,11 +2,10 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-<!-- h-entry da problemi con l'animazione? -->
-  <!-- <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting"> -->
 
   <header class="post-header">
-    <section class="first-image bg-pan-bl" id="dividendoFirst" >
+    <section class="bg-first-image first-image">
+      <div class="first-image bg-pan-bl" id="dividendoFirst">
     </section>
 
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -24,10 +23,10 @@ layout: default
         <h4>Tools</h4>
         <p>{{ page.tools }}</p>
       </div>
-                      <div class="periodo">
-                        <h4>Periodo</h4>
-                        <p>{{ page.periodo }}</p>
-                      </div>
+      <div class="periodo">
+        <h4>Periodo</h4>
+        <p>{{ page.periodo }}</p>
+      </div>
       <!-- <div class="team">
           <h5>Team:</h5>
           {{ page.team }} 

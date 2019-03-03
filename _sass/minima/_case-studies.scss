@@ -49,6 +49,15 @@ li {
 #dividendoFirst {
     background-image: url("/assets/img/dividendo/on_the_floor.png");
     background-color: #61c9a8;
+    height: 100%;
+}
+
+.first-image {
+    background-color: #61c9a8;
+}
+
+.bg-first-image {
+    background-color: #61c9a8;
 }
 
 .bg-pan-bl {
@@ -58,20 +67,23 @@ li {
  @keyframes bg-pan-bl {
     0% {
       background-position: 100% 0%;
+      opacity: 0;
     }
     100% {
       background-position: 0% 100%;
+      opacity: 1;
     }
   }
 
-.first-image {
-    top: 0;
-    height: 100vh;
-    // metto a 51% per evitare problemi con la barra laterale di windows
-    margin-left: calc(52% - 50vw);
-    margin-right: calc(52% - 50vw);
-    background-size: cover;
-    margin-top: 0;
+  .first-image {
+      top: 0;
+      height: 100vh;
+      // metto a 51% per evitare problemi con la barra laterale di windows
+      margin-left: calc(51% - 50vw);
+      margin-right: calc(51.5% - 50vw);
+      background-size: cover;
+      margin-top: 0;
+      margin-bottom: $spacing-unit/2;
 }
 
 .slick-prev:before,
