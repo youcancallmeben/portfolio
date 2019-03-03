@@ -152,7 +152,7 @@ Arrivati ad un punto di accordo comune rispetto alla navigazione abbiamo deciso 
 <!-- ![Home]({{site.baseurl }}/assets/img/dividendo/Dividendo Appartamento.svg) -->
 <!-- ![Notifiche]({{site.baseurl }}/assets/img/dividendo/Notifiche.svg) -->
 ![Aggiungi Da Scontrino]({{site.baseurl }}/assets/img/dividendo/aggiungiScontrinoCorto.gif)
-![Salda]({{site.baseurl }}/assets/img/dividendo/SaldaRicorda.gif)
+![Salda]({{site.baseurl }}/assets/img/dividendo/saldaRicorda.gif)
 </div>
 </div>
 </section>
