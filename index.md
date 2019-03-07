@@ -5,12 +5,25 @@
 layout: home
 list_title: Case studies
 hero: firstImage.svg
+looking: "<em>I'm actively seeking opportunities for 2019</em>"
 ---
 
 Hi 👋 <br>
 my name is Beniamino, but **you can call me Ben** <br>
-I'm an Web Designer based in Trento 🇮🇹<br>
-I like micro-interactions and chill music. <br>
+
+I'm a Web Designer based in Trento <br>
+I enjoy creating usable and engaging user interfaces
+
+
+<!-- I like micro-interactions and chill music. <br> -->
+
+<!-- my focuses are front-end development and Interaction Design
+with passion for  -->
+
+
+
+
+<!-- I'm an Interaction Designer with a focus on Motion graphics and front-end development -->
 
 <!-- I'm a multi disciplinary web designer
 with a passion for micro-interactions and chill music -->

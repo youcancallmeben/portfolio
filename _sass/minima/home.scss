@@ -1,8 +1,17 @@
-#onboarding {
-    padding-top: 60px;
+#intro {
+    // padding-top: 60px;
     display: grid;
-    grid-template-rows: 60vh 40vh;
+    grid-template-rows: 70vh 30vh;
     align-items: center;
+
+    p {
+        @include relative-font-size(1.5);
+    }
+
+    #looking {
+        // @include relative-font-size(1);
+        justify-self: center;
+    }
 
     #hero {
         width: 100%;
@@ -12,6 +21,10 @@
     h2 {
         margin-bottom: 0px;
         align-self: end;
+    }
+
+    .svg-wrapper {
+        margin: 1em;
     }
 }
 

@@ -5,11 +5,12 @@ permalink: /about/
 foto: /assets/img/pp_instagram.jpg
 ---
 
+{:.profile-picture}
+![foto Profilo Ben]({{site.baseurl }}/assets/img/pp_instagram.jpg)
+
 <!-- **chi sono** -->
 #### Friendly, collaborative, and always learning.
-I am a web designer who is passionate about designing and building User Interfaces.
-
-Interaction Design, upcoming technologies and human behaviour. 
+I am a web designer who is passionate about upcoming technologies and human behaviour. 
 <!-- and bridging the gap between humans and technology. -->
 Currently I live in Trento where I'm learning and finding inspiration in new places everyday, and strive to grow day by day as both a designer and *listener*.
 <!-- I like to concretize my design discoveries in infographics and sometimes develop them too. -->
@@ -17,7 +18,7 @@ Currently I live in Trento where I'm learning and finding inspiration in new pla
 <!-- **background** -->
 #### I came to design from a background in IT
 <!-- I am a designer with a background in IT. <br> -->
-having worked in various roles from Industrial automation, web design, Quality management, and UX, I have developed an interdisciplinary skillset and bring strong interaction design, problem solving and problem finding skills. 
+Having worked in various roles from Industrial automation, web design, quality management, and UX, I have developed an interdisciplinary skillset and bring strong interaction design, problem solving and problem finding skills. 
 <!-- allowing me to design solutions in a holistic way.  -->
 
 <!-- **passioni** -->
