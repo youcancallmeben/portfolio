@@ -8,10 +8,12 @@ hero: firstImage.svg
 looking: "<em>I'm actively seeking opportunities for 2019</em>"
 ---
 
+{:#mynameis}
 Hi 👋 <br>
-my name is Beniamino, but **you can call me Ben** <br>
+my name is Beniamino, but *you can call me Ben* 
 
-I'm a Web Designer based in Trento <br>
+I'm a **Web Designer** based in Trento
+
 I enjoy creating usable and engaging user interfaces
 
 
@@ -19,9 +21,6 @@ I enjoy creating usable and engaging user interfaces
 
 <!-- my focuses are front-end development and Interaction Design
 with passion for  -->
-
-
-
 
 <!-- I'm an Interaction Designer with a focus on Motion graphics and front-end development -->
 

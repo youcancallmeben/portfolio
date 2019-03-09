@@ -5,8 +5,8 @@ permalink: /about/
 foto: /assets/img/pp_instagram.jpg
 ---
 
-{:.profile-picture}
-![foto Profilo Ben]({{site.baseurl }}/assets/img/pp_instagram.jpg)
+<!-- {:.profile-picture}
+![foto Profilo Ben]({{site.baseurl }}/assets/img/pp_instagram.jpg) -->
 
 <!-- **chi sono** -->
 #### Friendly, collaborative, and always learning.
