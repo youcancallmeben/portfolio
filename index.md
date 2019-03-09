@@ -10,12 +10,11 @@ hero: firstImage.svg
 
 {:#mynameis}
 Hi 👋 <br>
-my name is Beniamino, but *you can call me Ben* 
+my name is Beniamino, but *you can call me Ben*
 
 I'm a **Web Designer** based in Trento
 
 I enjoy creating usable and engaging user interfaces
-
 
 <!-- I like micro-interactions and chill music. <br> -->
 

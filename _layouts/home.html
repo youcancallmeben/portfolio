@@ -3,15 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  <div id="onboarding">
-    <!-- <img id="hero" src="{{ site.baseurl }}/assets/svg/firstImage.svg"></object> -->
-    <!-- <object id="hero" type="image/svg+xml" data="{{ site.baseurl }}/assets/svg/{{ page.svg }}"></object> -->
-    <div data-aos="fade-up">
-      <div id="intro">
+      <div id="landing" class="fade-up">
         <div id="introText">
           {{ content }}
         </div>
@@ -27,10 +19,7 @@ layout: default
             </a>
           </div>
         </div>
-        
       </div>
-    </div>
-  </div>
 
   <div id="workSection">
     <h2 class="post-list-heading">
