@@ -3,22 +3,30 @@
     grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-template-areas: "overview overview ruolo tools periodo";
     grid-column-gap: 2em;
-    h3,h4,h5{
+
+    h3,
+    h4,
+    h5 {
         margin-bottom: 0;
     }
+
     p {
         font-size: $small-font-size;
     }
+
     .periodo {
         grid-area: periodo;
     }
+
     .ruolo {
         grid-area: ruolo;
     }
+
     .tools {
         grid-area: tools;
     }
-    .overview{
+
+    .overview {
         grid-area: overview;
     }
 
@@ -26,9 +34,9 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 1em;
-        grid-template-areas: 
-        " overview  overview    overview "
-        " ruolo     tools       periodo"
+        grid-template-areas:
+            " overview  overview    overview "
+            " ruolo     tools       periodo"
     }
 }
 
@@ -37,7 +45,7 @@ article section {
 }
 
 blockquote {
-    border-left: 4px solid darken($brand-color, 5%);
+    border-left: 4px solid darken($text-color, 5%);
     font-size: $base-font-size*1.5;
     margin: $spacing-unit 0;
 }
@@ -46,49 +54,40 @@ li {
     margin-bottom: 0.5em;
 }
 
-#dividendoFirst {
-    background-image: url("/assets/img/dividendo/on_the_floor.png");
-    background-color: #61c9a8;
-    height: 100%;
-}
-
-.first-image {
-    background-color: #61c9a8;
-}
-
 .bg-first-image {
-    background-color: #61c9a8;
+    background-color: $dividendo-color;
 }
 
 .bg-pan-bl {
-	animation: bg-pan-bl 8s both;
+    animation: bg-pan-bl 8s both;
 }
 
- @keyframes bg-pan-bl {
+@keyframes bg-pan-bl {
     0% {
-      background-position: 100% 0%;
-      opacity: 0;
+        background-position: 100% 0%;
+        opacity: 0;
     }
-    100% {
-      background-position: 0% 100%;
-      opacity: 1;
-    }
-  }
 
-  .first-image {
-      top: 0;
-      height: 100vh;
-      // metto a 51% per evitare problemi con la barra laterale di windows
-      margin-left: calc(51% - 50vw);
-      margin-right: calc(51.5% - 50vw);
-      background-size: cover;
-      margin-top: 0;
-      margin-bottom: $spacing-unit/2;
+    100% {
+        background-position: 0% 100%;
+        opacity: 1;
+    }
+}
+
+.first-image {
+    top: 0;
+    height: 100vh;
+    // metto a 51% per evitare problemi con la barra laterale di windows
+    margin-left: calc(51% - 50vw);
+    margin-right: calc(51.5% - 50vw);
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: $spacing-unit/2;
 }
 
 .slick-prev:before,
 .slick-next:before {
-    color: $brand-color !important;
+    color: $dividendo-color;
 }
 
 .central {

@@ -28,7 +28,7 @@
 li.works {
     transition: 0.3s ease all;
     transform: translateY(0px);
-    
+
     &:hover {
         transition: 0.3s ease all;
         transform: translateY(-10px);
@@ -37,16 +37,8 @@ li.works {
 
 
 #card1 {
-    background: #61c9a8   ; /* fallback for old browsers */
+    background: $dividendo-color   ; /* fallback for old browsers */
 }
-
-// #card2 {
-// background: #AB6C82;  /* fallback for old browsers */
-// }
-
-// #card3 {
-//     background: #685D79   ; /* fallback for old browsers */
-// }
 
 .grid-container {
     display: grid;
@@ -95,6 +87,24 @@ li.works {
     margin: 1px;
     padding: 0px 10px 0px 10px;
     border-radius: 2px;
+}
+
+// card-article transition
+.circle {
+    position: fixed;
+    background-color: transparent; 
+    transition: transform 0.5s, z-index 0s, background-color 0s;
+    border-radius: 50%;
+    top: 50vh;
+    z-index: -1 ;
+    width: 10px;
+    height: 10px;
+}
+
+.circle-expanded {
+    background-color: $dividendo-color; 
+    z-index: 100;
+    transform: scale(500, 500);
 }
 
 /* Small screens */

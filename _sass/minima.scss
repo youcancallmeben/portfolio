@@ -15,6 +15,7 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $background-color: #FBFAF3 !default;
 $brand-color:      #ee9a03 !default;
+$dividendo-color:  #61C9A8 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -62,7 +63,7 @@ $on-large:         $on-laptop !default;
   "minima/home",
   "minima/case-studies",
   "minima/hamburger",
-  "minima/bubble"
+  "minima/dividendo"
   // "minima/carousel"
   // "minima/responsive"
 ;

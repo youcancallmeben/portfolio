@@ -1,0 +1,30 @@
+article.dividendo {
+
+    blockquote {
+        border-left: 4px solid darken($dividendo-color, 5%);
+    }
+
+    #dividendoFirst {
+        background-image: url("/assets/img/dividendo/on_the_floor.png");
+        height: 100%;
+    }
+        
+    .bg-first-image {
+        background-color: $dividendo-color;
+    }
+
+    a {
+        color: $dividendo-color;
+        text-decoration: none;
+        
+        &:visited {
+            color: darken($dividendo-color, 15%);
+        }
+        
+        &:hover {
+            color: darken($text-color, 15%);
+            text-decoration: underline;
+        }
+    }
+}
+    
