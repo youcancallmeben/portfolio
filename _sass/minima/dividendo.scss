@@ -4,9 +4,11 @@ article.dividendo {
         border-left: 4px solid darken($dividendo-color, 5%);
     }
 
-    #dividendoFirst {
+    .first-image {
         background-image: url("/assets/img/dividendo/on_the_floor.png");
         height: 100%;
+        background-size: cover;
+
     }
         
     .bg-first-image {
@@ -28,3 +30,7 @@ article.dividendo {
     }
 }
     
+.slick-prev:before,
+.slick-next:before {
+    color: $dividendo-color;
+}

@@ -54,27 +54,12 @@ li {
     margin-bottom: 0.5em;
 }
 
-.bg-first-image {
-    background-color: $dividendo-color;
-}
-
 .bg-pan-bl {
-    animation: bg-pan-bl 8s both;
+    animation: bg-pan-bl 6s both;
 }
 
-@keyframes bg-pan-bl {
-    0% {
-        background-position: 100% 0%;
-        opacity: 0;
-    }
 
-    100% {
-        background-position: 0% 100%;
-        opacity: 1;
-    }
-}
-
-.first-image {
+.bg-first-image {
     top: 0;
     height: 100vh;
     // metto a 51% per evitare problemi con la barra laterale di windows
@@ -85,16 +70,40 @@ li {
     margin-bottom: $spacing-unit/2;
 }
 
-.slick-prev:before,
-.slick-next:before {
-    color: $dividendo-color;
-}
-
 .central {
     display: flex;
     justify-content: center;
 }
 
+// per le slides delle gif se no me le deforma in larghezza
 .constraint {
     max-width: 300px;
+}
+
+.bg-first-image {
+    animation: revealTitle 10s both;
+}
+
+@keyframes revealTitle {
+    // dopo 6 secondi finisce l'animazione del background e comincia questa
+    59% {
+        margin-top: 0;
+    }
+    80% {
+        margin-top: -10vh;
+    }
+    100% {
+        margin-top: -10vh;
+    }
+}
+
+@keyframes bg-pan-bl {
+    0% {
+        background-position: 100% 0%;
+        opacity: 0;
+    }
+    100% {
+        background-position: 0% 100%;
+        opacity: 1;
+    }
 }
