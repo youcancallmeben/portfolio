@@ -5,7 +5,7 @@
 layout: home
 list_title: Case studies
 hero: firstImage.svg
-looking: "<em>I'm actively seeking opportunities for 2019</em>"
+# looking: "<em>I'm actively seeking opportunities for 2019</em>"
 ---
 
 {:#mynameis}

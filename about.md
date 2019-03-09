@@ -18,7 +18,7 @@ Currently I live in Trento where I'm learning and finding inspiration in new pla
 <!-- **background** -->
 #### I came to design from a background in IT
 <!-- I am a designer with a background in IT. <br> -->
-Having worked in various roles from Industrial automation, web design, quality management, and UX, I have developed an interdisciplinary skillset and bring strong interaction design, problem solving and problem finding skills. 
+Having worked in various sector from industrial automation, web design, quality management, and UX, I have developed an interdisciplinary skillset and bring strong interaction design, problem solving and problem finding skills. 
 <!-- allowing me to design solutions in a holistic way.  -->
 
 <!-- **passioni** -->
@@ -35,7 +35,7 @@ Time management
 Pomodoro technique -->
 <!-- As a designer, I enjoy solving complex problems by using a holistic design process with a focus on multi-disciplinary collaboration and rapid iteration.  -->
 I am curious and passionate about learning how the motivations and feelings of people impact their actions. 
-I'm fascinated by the movement and the consequence it can have in our attention.
+I'm fascinated by movement and the consequence it can have in our attention.
 I believe in technology that empowers, not detracts, the holistic experience. 
 <!-- **Mission** -->
 I’m an impact-driven designer who cares about designing efficient and enjoyable products for users. 

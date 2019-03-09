@@ -22,11 +22,19 @@
         z-index: 1;
     }
 
+    
+}
+
+li.works {
+    transition: 0.3s ease all;
+    transform: translateY(0px);
+    
     &:hover {
         transition: 0.3s ease all;
         transform: translateY(-10px);
     }
 }
+
 
 #card1 {
     background: #61c9a8   ; /* fallback for old browsers */
