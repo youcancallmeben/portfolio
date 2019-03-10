@@ -18,6 +18,11 @@ $background-color: #FBFAF3 !default;
 $brand-color:      #ee9a03 !default;
 $dividendo-color:  #61C9A8 !default;
 
+$dot-color:        #e3e3e3 !default;
+$dot-size:         2px;
+$dot-space:        30px;
+$line-height:      $dot-size + $dot-space;
+
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;

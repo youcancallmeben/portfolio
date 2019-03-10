@@ -322,3 +322,8 @@
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width: calc(50% - (#{$spacing-unit} / 2));
 }
+
+.content {
+	background: #fbfaf3;
+	// line-height: $line-height;
+}

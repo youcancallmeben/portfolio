@@ -26,6 +26,11 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background:
+  linear-gradient(90deg, $background-color ($dot-space - $dot-size), transparent 1%) center,
+  linear-gradient($background-color ($dot-space - $dot-size), transparent 1%) center,
+  $dot-color;
+background-size: $dot-space $dot-space;
 }
 
 
@@ -266,4 +271,11 @@ table {
 .stay-in-touch {
   text-align: center;
   margin-bottom: 0;
+}
+
+
+em {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAEUlEQVQYlWNgIA5IjSqisyIA0EgBBS81/ewAAAAASUVORK5CYII=) repeat;
+padding: 0.15em;
+font-style: normal;
 }
