@@ -139,6 +139,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: $background-color;
 }
 
 .footer-heading {
@@ -237,6 +238,9 @@
   @include relative-font-size(1.5);
 }
 
+.padding-header {
+  padding-top: 100px;
+}
 
 
 /**

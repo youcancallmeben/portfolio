@@ -12,9 +12,11 @@ hero: firstImage.svg
 Hi 👋 \\
 my name is Beniamino, but *you can call me Ben*
 
-I'm a **Web Designer** based in Trento
+I design and develop user interfaces
 
-I enjoy creating usable and engaging user interfaces
+<!-- I'm a **Web Designer** based in Trento
+
+I enjoy creating usable and engaging user interfaces -->
 
 <!-- I like micro-interactions and chill music. <br> -->
 

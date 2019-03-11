@@ -11,7 +11,7 @@ $(document).ready(function () {
   AOS.init();
 
   // header appear if you are in home
-  if ($('div').is('.home')) {
+  if ($('div').is('.home') || $('header').is('.padding-header')) {
     document.getElementsByClassName("site-header")[0].style.top = "0px";
   }
 
