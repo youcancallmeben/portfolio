@@ -50,7 +50,7 @@ Alcune volte all’interno dello scontrino ci sono prodotti da dividere, mentre 
 <section id="process" markdown="1">
 
 ## Il processo
-Abbiamo seguito il design process model del [Double Diamond](https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond) ideato dal British Design Council.
+Abbiamo seguito il design process model del [Double Diamond](https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond){:.fancy-link} ideato dal British Design Council.
 
 {:.full-width}
 ![Double Diamond]({{ site.baseurl }}/assets/img/dividendo/doublediamonddesignprocess.png)
@@ -166,7 +166,7 @@ Arrivati ad un punto di accordo comune rispetto alla navigazione abbiamo deciso 
 ![qrCode]({{site.baseurl }}/assets/img/dividendo/qrCode.png)
 
 {: .central}
-[Link al prototipo](https://share.protopie.io/648wG6keh2D)
+[Link al prototipo](https://share.protopie.io/648wG6keh2D){:.fancy-link}
 
 <!-- 
 lo- fi prototype

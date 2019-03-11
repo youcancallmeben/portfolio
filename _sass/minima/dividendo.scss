@@ -19,13 +19,14 @@ article.dividendo {
         color: $dividendo-color;
         text-decoration: none;
         
-        &:visited {
-            color: darken($dividendo-color, 15%);
+        &.fancy-link{
+            &:before, &:after {
+                background-color: $dividendo-color;
+            }
         }
         
-        &:hover {
-            color: darken($text-color, 15%);
-            text-decoration: underline;
+        &:visited {
+            color: darken($dividendo-color, 15%);
         }
     }
 }
