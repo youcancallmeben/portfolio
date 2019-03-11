@@ -21,16 +21,16 @@ layout: default
         </div>
       </div>
 
-  <div id="workSection">
-    <h2 class="post-list-heading">
+  <div id="workSection" class="content">
+    <h2 class="post-list-heading content">
       <a name="works"></a>
       {{ page.list_title | default: "Posts" }}
     </h2>
     {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    <ul class="post-list content">
 
       {%- for post in site.posts -%}
-      <li class="works">
+      <li class="works content">
 
         <!-- javascript delay for letting the animation load -->
         <a class="card-link" href="javascript:delay('{{ post.url | relative_url }}')">
