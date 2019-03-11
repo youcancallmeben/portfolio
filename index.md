@@ -9,7 +9,7 @@ hero: firstImage.svg
 ---
 
 {:#mynameis}
-Hi 👋 <br>
+Hi 👋 \\
 my name is Beniamino, but *you can call me Ben*
 
 I'm a **Web Designer** based in Trento

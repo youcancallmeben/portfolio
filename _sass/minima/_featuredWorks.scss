@@ -56,8 +56,9 @@ li.works {
     .title {
         grid-area: title;
         align-self: center;
-
+        
         > h3 {
+            background: transparent;
             margin-bottom: 0px;
             color: white;
         }
