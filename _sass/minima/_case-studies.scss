@@ -80,23 +80,6 @@ li {
     max-width: 300px;
 }
 
-.bg-first-image {
-    animation: revealTitle 10s both;
-}
-
-@keyframes revealTitle {
-    // dopo 6 secondi finisce l'animazione del background e comincia questa
-    59% {
-        margin-top: 0;
-    }
-    80% {
-        margin-top: -10vh;
-    }
-    100% {
-        margin-top: -10vh;
-    }
-}
-
 @keyframes bg-pan-bl {
     0% {
         background-position: 100% 0%;
