@@ -1,7 +1,6 @@
 var btn = $('.bubble');
 var background = $('.background');
 
-
 var width = 0;
 var height = 0;
 var r = 0;
@@ -39,7 +38,7 @@ btn.click(function(e) {
    	'margin-left': -r,
     'margin-top': -r
   }, {
-    duration: 600,
+    duration: 50000,
     easing: "easeInOutCubic",
     queue: false,
     complete: function() {

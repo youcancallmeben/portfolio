@@ -3,6 +3,7 @@
     border: 0 none;
 }
 
+
 .card {
     margin: 20px 0px 20px 0px;
     border-radius: 2vh;
@@ -21,8 +22,6 @@
         font-size: 3em;
         z-index: 1;
     }
-
-    
 }
 
 li.works {
@@ -94,7 +93,7 @@ li.works {
 .circle {
     position: fixed;
     background-color: transparent; 
-    transition: transform 0.5s, z-index 0s, background-color 0s;
+    transition: transform 1s, z-index 0s, background-color 0s;
     border-radius: 50%;
     top: 50vh;
     z-index: -1 ;

@@ -3,7 +3,7 @@ function delay(URL) {
   document.getElementsByClassName("circle")[0].classList.toggle("circle-expanded");
   setTimeout(function () {
     window.location = URL
-  }, 300);
+  }, 600);
 }
 
 function showTitle() {
@@ -43,7 +43,6 @@ $(document).ready(function () {
   $('button').on('click', function () {
     $('body').toggleClass('open');
   });
-
 
   $('.responsive').slick({
     arrows: true,
