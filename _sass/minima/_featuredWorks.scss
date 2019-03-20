@@ -12,10 +12,10 @@
     justify-content: space-around;
     padding: 20%;
 
-    // make card clickabe also tapping on svg
-    object {
-        pointer-events: none;
-    }
+    // // make card clickabe also tapping on svg
+    // object {
+    //     pointer-events: none;
+    // }
 
     .card-title {
         color: #fafafa;
@@ -36,7 +36,11 @@ li.works {
 
 
 #card1 {
-    background: $dividendo-color   ; /* fallback for old browsers */
+    background: $dividendo-color; 
+}
+
+#card2 {
+    background: $autoflow-color;
 }
 
 .grid-container {

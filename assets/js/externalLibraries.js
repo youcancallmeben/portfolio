@@ -1,6 +1,8 @@
 // card animation to open another page.
 function delay(URL) {
-  document.getElementsByClassName("circle")[0].classList.toggle("circle-expanded");
+  if (URL == "/dividendo")
+    document.getElementsByClassName("circle")[0].classList.toggle("circle-expanded");
+
   setTimeout(function () {
     window.location = URL
   }, 600);
@@ -49,7 +51,7 @@ $(document).ready(function () {
     dots: true,
     infinite: true,
     speed: 300,
-    // remove arrow on device because it breaks the viewport
+    // remove arrow on device 'cause overflow
     responsive: [{
       breakpoint: 1024,
       settings: {

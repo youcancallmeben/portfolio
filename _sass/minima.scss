@@ -17,6 +17,7 @@ $text-color:       #111 !default;
 $background-color: #FBFAF3 !default;
 $brand-color:      #ee9a03 !default;
 $dividendo-color:  #61C9A8 !default;
+$autoflow-color:   #c54435  !default;
 
 $dot-color:        #e3e3e3 !default;
 $dot-size:         2px;
@@ -69,7 +70,8 @@ $on-large:         $on-laptop !default;
   "minima/home",
   "minima/case-studies",
   "minima/hamburger",
-  "minima/dividendo"
+  "minima/dividendo",
+  "minima/autoflow"
   // "minima/carousel"
   // "minima/responsive"
 ;
