@@ -1,12 +1,4 @@
-// card animation to open another page.
-function delay(URL) {
-  if (URL == "/dividendo")
-    document.getElementsByClassName("circle")[0].classList.toggle("circle-expanded");
 
-  setTimeout(function () {
-    window.location = URL
-  }, 600);
-}
 
 function showTitle() {
   if (window.pageYOffset==0) {

@@ -63,8 +63,9 @@ li {
     top: 0;
     height: 100vh;
     // metto a 51% per evitare problemi con la barra laterale di windows
-    margin-left: calc(51% - 50vw);
-    margin-right: calc(51.5% - 50vw);
+    // margin-left: calc(51% - 50vw);
+    // margin-right: calc(51.5% - 50vw);
+    margin: 0 calc( -50vw + 50%);
     background-size: cover;
     margin-top: 0;
     margin-bottom: $spacing-unit/2;

@@ -6,7 +6,8 @@
     </h2>
     {%- if site.posts.size > 0 -%}
     <ul class="post-list content">
-
+      
+      <div class="circle"></div>
       {%- for post in site.posts -%}
       <li class="works content">
 
@@ -14,7 +15,6 @@
         <a class="card-link" href="javascript:delay('{{ post.url | relative_url }}')">
           <div data-aos="fade-up" id="card{{ forloop.index }}" class="card container">
             <!-- circle that makes possible the bubble transition -->
-            <div class="circle"></div>
 
             <div class="grid-container">
               <div class="title" data-aos="fade-up" data-aos-anchor=".featuredImage" data-aos-delay="300">

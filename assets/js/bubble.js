@@ -1,3 +1,20 @@
+// card animation to open another page.
+function delay(URL) {
+  if (URL == "/dividendo") {
+    document.getElementsByClassName("circle")[0].classList.toggle("circle-expanded");
+    document.getElementsByClassName("circle")[0].classList.toggle("circle-dividendo");
+  }
+  else if (URL == "/autoflow"){
+    document.getElementsByClassName("circle")[0].classList.toggle("circle-expanded");
+    document.getElementsByClassName("circle")[0].classList.toggle("circle-autoflow");
+  }
+
+  setTimeout(function () {
+    window.location = URL
+  }, 600);
+}
+
+
 var btn = $('.bubble');
 var background = $('.background');
 
@@ -12,6 +29,9 @@ function setSize() {
   r = Math.sqrt(width * width + height * height);
 }
 $(window).resize(setSize);
+
+// is this function really useful?
+
 
 btn.click(function(e) {
   btn.removeClass('current');
@@ -38,7 +58,7 @@ btn.click(function(e) {
    	'margin-left': -r,
     'margin-top': -r
   }, {
-    duration: 50000,
+    duration: 500,
     easing: "easeInOutCubic",
     queue: false,
     complete: function() {
