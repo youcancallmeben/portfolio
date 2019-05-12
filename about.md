@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
-foto: /assets/img/pp_instagram.jpg
+foto: /assets/img/benBig.png
 ---
 
 <!-- {:.profile-picture}
-![foto Profilo Ben]({{site.baseurl }}/assets/img/pp_instagram.jpg) -->
+![foto Profilo Ben]({{site.baseurl }}{{ page.foto }}) -->
 
 <!-- **chi sono** -->
 #### Friendly, collaborative, and always learning.
@@ -54,7 +54,7 @@ For me design goes beyond what things look like, it’s about how things functio
   UI Design -->
 
 <!-- **contact me** -->
-*I am actively looking for full time opportunities for 2019!*
+<!-- *I am actively looking for full time opportunities for 2019!* -->
 
 <!-- If you want to ask something or you feel like you want to let me know anything, just drop a line here
 You can find me online also at 
@@ -67,8 +67,9 @@ You can find me online also at
 Holistic
 empowering
 Pomodoro Technique
-Problem finfing 
+Problem finding 
 Rapid Iteration
+Information architecure
 -->
 
 
