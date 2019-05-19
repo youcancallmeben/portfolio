@@ -1,6 +1,8 @@
 ---
 layout:         post
-title:          "Dividendo"
+title:          Dividendo case study
+titleh1:        Dividendo
+description:    Aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze
 date:           2019-01-26 17:30:58 +0100
 categories:     jekyll update
 tag:            [ux, prototyping, mobile]
