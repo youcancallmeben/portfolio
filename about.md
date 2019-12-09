@@ -8,6 +8,8 @@ foto: /assets/img/benBig.png
 <!-- {:.profile-picture}
 ![foto Profilo Ben]({{site.baseurl }}{{ page.foto }}) -->
 
+<div class="avatar-mobile"></div>
+
 <!-- **chi sono** -->
 #### Friendly, collaborative, and always learning.
 I am a web designer who is passionate about upcoming technologies and human behaviour. 
