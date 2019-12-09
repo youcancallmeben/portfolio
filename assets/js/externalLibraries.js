@@ -1,28 +1,15 @@
-
-
-function showTitle() {
-  if (window.pageYOffset==0) {
-    $('html, body').animate({
-      scrollTop: "200px"
-  }, 1500);
-  }
-}
-
-
 $(document).ready(function () {
   // Library for cool shading effect
   AOS.init();
-  
+
   // header appear if you are in home
   if ($('div').is('.home') || $('header').is('.padding-header')) {
     document.getElementsByClassName("site-header")[0].style.top = "0px";
   }
-  
-  setTimeout(showTitle, 6000);
-  
+
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
   var prevScrollpos = window.pageYOffset;
-  
+
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {

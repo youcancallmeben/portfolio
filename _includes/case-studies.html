@@ -1,43 +1,43 @@
 <div id="workSection" class="content">
-    <h2 class="post-list-heading content">
-      <a name="works"></a>
+  <h2 class="post-list-heading content">
+    <a name="works"></a>
 
-      <!-- {{ page.list_title }} -->
-    </h2>
-    {%- if site.posts.size > 0 -%}
-    <ul class="post-list content">
-      
-      <div class="circle"></div>
-      {%- for post in site.posts -%}
-      <li class="works content">
+    <!-- {{ page.list_title }} -->
+  </h2>
+  {%- if site.posts.size > 0 -%}
+  <ul class="post-list content">
 
-        <!-- javascript delay for letting the animation load -->
-        <a class="card-link" href="javascript:delay('{{ post.url | relative_url }}')">
-          <div data-aos="fade-up" id="card{{ forloop.index }}" class="card container">
-            <!-- circle that makes possible the bubble transition -->
+    <div class="circle"></div>
+    {%- for post in site.posts -%}
+    <li class="works content">
 
-            <div class="grid-container">
-              <div class="title" data-aos="fade-up" data-aos-anchor=".featuredImage" data-aos-delay="300">
-                <h3 class="card-title">
-                  {{ post.titleh1 | escape }}
-                </h3>
-              </div>
-              <div class="post-meta tags">
-                {% for tag in post.tag %}
-                <div class="tag">{{ tag }}</div>
-                {% endfor %}
-              </div>
+      <!-- javascript delay for letting the animation load -->
+      <a class="card-link" href="javascript:delay('{{ post.url | relative_url }}')">
+        <div data-aos="fade-up" id="card{{ forloop.index }}" class="card container">
+          <!-- circle that makes possible the bubble transition -->
+
+          <div class="grid-container">
+            <div class="title" data-aos="fade-up" data-aos-anchor=".featuredImage" data-aos-delay="300">
+              <h3 class="card-title">
+                {{ post.titleh1 | escape }}
+              </h3>
             </div>
-
-            <div data-aos="fade-down-right" class="featuredImage">
-              <img alt="Mockup" class="featured" src="/assets/{{ post.card-image }}" />
+            <div class="post-meta tags">
+              {% for tag in post.tag %}
+              <div class="tag">{{ tag }}</div>
+              {% endfor %}
             </div>
-
           </div>
-        </a>
-      </li>
 
-      {%- endfor -%}
-    </ul>
-    {%- endif -%}
-  </div>
+          <div data-aos="fade-down-right" class="featuredImage">
+            <img alt="Mockup" class="featured" src="/assets/{{ post.card-image }}" />
+          </div>
+
+        </div>
+      </a>
+    </li>
+
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>
