@@ -8,11 +8,17 @@ hero: firstImage.svg
 # looking: "<em>I'm actively seeking opportunities for 2019</em>"
 ---
 
-{:#mynameis}
+<!-- {:#mynameis}
 Hi 👋 \\
 my name is Beniamino, but *you can call me Ben*
 
-I design and develop user interfaces
+I design and develop user interfaces-->
+
+{:#mynameis}
+Ciao 👋 \\
+*mi chiamo Beniamino, ma chiamami pure Ben*
+
+Il mio lavoro è progettare e sviluppare interfacce utente
 
 <!-- I'm a **Web Designer** based in Trento
 

@@ -3,7 +3,7 @@ layout: page
 title: CV
 # permalink: /pdf/CVmariniBeniamino.pdf
 # permalink: assets/pdf/cv.pdf
-permalink: /assets/pdf/MariniBeniaminoWebDesigner.pdf
+permalink: /assets/pdf/MariniBeniamino-uiUxDesigner.pdf
 ---
 ### [you can download it too]({{ site.url }}/pdf/CVmariniBeniamino.pdf)
 

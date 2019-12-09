@@ -5,7 +5,7 @@ titleh1:        Dividendo
 description:    Aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze
 date:           2019-01-26 17:30:58 +0100
 categories:     jekyll update
-tag:            [ux, prototyping, mobile]
+tag:            [ux, product design]
 permalink:      dividendo
 card-image:     img/dividendo/cardMockup.png
 first-image:    /assets/img/dividendo/Overview.png

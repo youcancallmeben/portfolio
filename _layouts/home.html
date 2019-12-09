@@ -3,24 +3,24 @@ layout: default
 ---
 
 <div class="home">
-      <div id="landing" data-aos="fade-up">
-        <div id="introText" class="content">
-          {{ content }}
-        </div>
+  <div id="landing" data-aos="fade-up">
+    <div id="introText" class="content">
+      {{ content }}
+    </div>
 
-        <div id="looking" class="content">
-          {{ page.looking }}
-          <div class="svg-wrapper">
-            <a href="mailto:mail@youcancallmeben.design?subject=Hei Ben!">
-              <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-                <rect class="shape" height="60" width="320" />
-              </svg>
-              <div id="mailme">Let's get in touch</div>
-            </a>
-          </div>
-        </div>
+    <div id="looking" class="content">
+      {{ page.looking }}
+      <div class="svg-wrapper">
+        <a href="mailto:mail@youcancallmeben.design?subject=Hei Ben!">
+          <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="320" />
+          </svg>
+          <div id="mailme">Contattami</div>
+        </a>
       </div>
+    </div>
+  </div>
 
-      {%- include case-studies.html -%}
+  {%- include case-studies.html -%}
 
 </div>
