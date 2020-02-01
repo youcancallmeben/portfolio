@@ -31,7 +31,6 @@ Having worked in various sector from industrial automation, web design, quality 
 <!-- I believe in the power of visualization of word, that can fit the gap left in our imaginations with detail -->
 <!-- I get excited discovering new technologies and I'm fascinated by all the enhancement in the world. -->
 
-<!-- **Come mi piace lavorare** -->
 <!-- Passion for details
 Time management 
 Pomodoro technique -->
