@@ -23,7 +23,6 @@ Currently I live in Trento where I'm learning and finding inspiration in new pla
 Having worked in various sector from industrial automation, web design, quality management, and UX, I have developed an interdisciplinary skillset and bring strong interaction design, problem solving and problem finding skills. 
 <!-- allowing me to design solutions in a holistic way.  -->
 
-<!-- **passioni** -->
 #### Passion
 <!-- I love learning about new perspectives from different people, enriching my minds with different views & experiences. -->
 <!-- I'm fascinated by how we perceive things and how this is related to how we remember them. -->
