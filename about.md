@@ -31,9 +31,7 @@ Having worked in various sector from industrial automation, web design, quality 
 <!-- I believe in the power of visualization of word, that can fit the gap left in our imaginations with detail -->
 <!-- I get excited discovering new technologies and I'm fascinated by all the enhancement in the world. -->
 
-<!-- Passion for details
-Time management 
-Pomodoro technique -->
+
 <!-- As a designer, I enjoy solving complex problems by using a holistic design process with a focus on multi-disciplinary collaboration and rapid iteration.  -->
 I am curious and passionate about learning how the motivations and feelings of people impact their actions. 
 I'm fascinated by movement and the consequence it can have in our attention.
