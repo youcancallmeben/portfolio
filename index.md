@@ -5,7 +5,7 @@
 layout: home
 list_title: Case studies
 hero: firstImage.svg
-# looking: "<em>I'm actively seeking opportunities for 2019</em>"
+# looking: "<em>Al momento sono aperto a nuove opportunità lavorative</em>"
 ---
 
 <!-- {:#mynameis}
@@ -15,12 +15,32 @@ my name is Beniamino, but *you can call me Ben*
 I design and develop user interfaces-->
 
 {:#mynameis}
-Ciao 👋 \\
-*mi chiamo Beniamino, ma chiamami pure Ben*
+Ciao 👋 mi chiamo Beniamino, \\
+ma tutti mi chiamano Ben.
 
-Il mio lavoro è progettare e sviluppare interfacce utente
+Sono un giovane e curioso UI designer
 
-<!-- I'm a **Web Designer** based in Trento
+{:#looking}
+*Al momento sono aperto a nuove opportunità lavorative*
+
+<!-- 
+Progetto interfacce utente.
+Di lavoro progetto interfacce utente. Qualcuno mi chiama UI designer, ma a 
+
+In luglio 2020 terminerò il mio percorso universitario in design. Ho tanta voglia di mettere in pratica ciò che ho imparato in questi anni.
+
+tanta voglia di imparare 
+In luglio 2020 terminerò il mio percorso universitario e ho tanta voglia di mettere in pratica ciò che ho imparato in questi anni.
+
+Sono uno studente insaziabile
+Ho voglia di fare e di mettermi in gioco.
+
+Sono giovane e pieno di voglia di fare.
+Il mio lavoro mi appassiona e 
+Il mio lavoro è progettare interfacce utente. 
+
+
+I'm a **Web Designer** based in Trento
 
 I enjoy creating usable and engaging user interfaces -->
 
