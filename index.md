@@ -5,7 +5,6 @@
 layout: home
 list_title: Case studies
 hero: firstImage.svg
-# looking: "<em>Al momento sono aperto a nuove opportunità lavorative</em>"
 ---
 
 <!-- {:#mynameis}
