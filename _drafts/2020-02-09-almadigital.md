@@ -15,6 +15,8 @@ ruolo:          UI Design, <br> Brand Design
 tools:          Figma, <br> Mural, <br> Notion
 ---
 
+{:toc}
+
 ## Il problema
 
 Alma Digital è un'agenzia di web marketing con sede all'impact hub di Trento.

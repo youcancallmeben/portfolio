@@ -52,6 +52,12 @@ em {
   font-style: normal;
 }
 
+// useful to apply inline kramdown style 
+em.no-em{
+  background: none;
+  padding: 0;;
+}
+
 p {
   background: #fbfaf3;
 }
