@@ -151,10 +151,10 @@ Arrivati ad un punto di accordo comune rispetto alla navigazione abbiamo deciso 
 <div class="constraint" markdown="1">
 
 {: .responsive}
-<!-- ![Home]({{site.baseurl }}/assets/img/dividendo/Dividendo Appartamento.svg) -->
-<!-- ![Notifiche]({{site.baseurl }}/assets/img/dividendo/Notifiche.svg) -->
-![Aggiungi Da Scontrino]({{site.baseurl }}/assets/img/dividendo/aggiungiScontrinoCorto.gif)
 ![Salda]({{site.baseurl }}/assets/img/dividendo/saldaRicorda.gif)
+![AggiungiDaScontrino]({{site.baseurl }}/assets/img/dividendo/aggiungiScontrinoCorto.gif)
+<!-- ![Notifiche]({{site.baseurl }}/assets/img/dividendo/Notifiche.svg) -->
+<!-- ![Home]({{site.baseurl }}/assets/img/dividendo/Dividendo Appartamento.svg) -->
 </div>
 </div>
 </section>

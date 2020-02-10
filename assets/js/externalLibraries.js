@@ -29,6 +29,9 @@ $(document).ready(function () {
     arrows: true,
     dots: true,
     infinite: true,
+    // variableWidth: true,
+    // slidesToShow: 1,
+    // centerMode: true,
     speed: 300,
     // remove arrow on device 'cause overflow
     responsive: [{

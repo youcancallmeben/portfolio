@@ -1,38 +1,46 @@
-article.dividendo {
+article.almadigital {
 
     blockquote {
-        border-left: 4px solid darken($dividendo-color, 5%);
+        border-left: 4px solid darken($alma-color, 5%);
     }
 
     .first-image {
         background-image: url("/assets/img/dividendo/on_the_floor.png");
         height: 100%;
         background-size: cover;
-
     }
         
     .bg-first-image {
-        background-color: $dividendo-color;
+        background-color: $alma-color;
     }
 
     a {
-        color: $dividendo-color;
+        color: $alma-color;
         text-decoration: none;
         
         &.fancy-link{
             &:before, &:after {
-                background-color: $dividendo-color;
+                background-color: $alma-color;
             }
         }
         
         &:visited {
-            color: darken($dividendo-color, 15%);
+            color: darken($alma-color, 15%);
         }
     }
-    
+
     .slick-prev:before,
     .slick-next:before {
-        color: $dividendo-color;
+        color: $alma-color;
+    }
+
+    .little-slides {
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    // img {
+    //     margin: 0 15vw 0 20vw;
+    // }
     }
 }
-    

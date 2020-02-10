@@ -32,12 +32,15 @@ li.works {
     }
 }
 
-
-#card1 {
-    background: $dividendo-color; 
+#card1{
+    background-color: $alma-color;
 }
 
 #card2 {
+    background: $dividendo-color; 
+}
+
+#card3 {
     background: $autoflow-color;
 }
 
@@ -115,6 +118,10 @@ li.works {
 
 .circle-autoflow {
     background-color: $autoflow-color;
+}
+
+.circle-alma {
+    background-color: $alma-color;
 }
 
 /* Small screens */
