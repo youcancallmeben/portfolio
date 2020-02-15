@@ -50,17 +50,19 @@ em {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAEUlEQVQYlWNgIA5IjSqisyIA0EgBBS81/ewAAAAASUVORK5CYII=) repeat;
   padding: 0.15em;
   font-style: normal;
+
+  // useful to apply inline kramdown style 
+  &.no-em{
+    background: none;
+    padding: 0;
+  }
 }
 
-// useful to apply inline kramdown style 
-em.no-em{
-  background: none;
-  padding: 0;;
-}
-
+// remove the grid dot effect
 p {
   background: #fbfaf3;
 }
+
 
 
 /**
@@ -101,6 +103,8 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+  @include margin-bottom(3);
+  @include margin-top(2);
 }
 
 
@@ -123,7 +127,10 @@ figcaption {
  */
 ul,
 ol {
-  margin-left: $spacing-unit;
+  // margin-left: $spacing-unit;
+  padding-left: 0;
+  list-style-position: outside;
+  margin-bottom: 2 * $spacing-unit;
 }
 
 li {
@@ -241,6 +248,10 @@ blockquote {
 
   > :last-child {
     margin-bottom: 0;
+  }
+
+  p {
+    hanging-punctuation: first;
   }
 }
 

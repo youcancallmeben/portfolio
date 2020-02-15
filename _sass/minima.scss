@@ -10,6 +10,8 @@ $base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+$base:             18 * ($base-font-size / 100);
+$leading:          $base * $base-line-height;
 
 $spacing-unit:     30px !default;
 $header-size:      $base-line-height * $base-font-size * 2.25;
@@ -61,6 +63,16 @@ $on-large:         $on-laptop !default;
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
+
+@mixin margin-bottom($number){
+  // margin-bottom: #{$number * $leading + 'px'};
+  margin-bottom: #{$number * $base-line-height + 'rem'};
+}
+
+@mixin margin-top($number) {
+  margin-top: #{ $number * $base-line-height + 'rem'};
+}
+
 
 
 // Import partials.

@@ -46,7 +46,7 @@ li.works {
 
 .grid-container {
     display: grid;
-    justify-items: center;
+    // justify-items: center;
     grid-template-rows: 4em 1.5em;
     grid-template-areas: "title  " "tags";
     align-self: center;
