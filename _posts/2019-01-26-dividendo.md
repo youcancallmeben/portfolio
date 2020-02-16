@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          Dividendo case study
+title:          Dividendo
 titleh1:        Dividendo
 description:    Aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze
 date:           2019-01-26 17:30:58 +0100
