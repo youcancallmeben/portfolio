@@ -1,10 +1,10 @@
 <div id="workSection" class="content">
   <h2 class="post-list-heading content">
     <a name="works"></a>
-
-    <!-- {{ page.list_title }} -->
   </h2>
+
   {%- if site.posts.size > 0 -%}
+
   <ul class="post-list content">
 
     <div class="circle"></div>
@@ -13,13 +13,13 @@
 
       <!-- javascript delay for letting the animation load -->
       <a class="card-link" href="javascript:delay('{{ post.url | relative_url }}')">
-        <div data-aos="fade-up" id="card{{ post.titleh1 }}" class="card container">
+        <div data-aos="fade-up" id="card_{{ post.permalink }}" class="card container">
           <!-- circle that makes possible the bubble transition -->
 
           <div class="grid-container">
             <div class="title" data-aos="fade-up" data-aos-anchor=".featuredImage" data-aos-delay="300">
               <h3 class="card-title">
-                {{ post.titleh1 | escape }}
+                {{ post.title | escape }}
               </h3>
             </div>
             <div class="post-meta tags">

@@ -1,46 +1,46 @@
 article.almadigital {
+  blockquote {
+    border-left: 4px solid darken($alma-color, 5%);
+  }
 
-    blockquote {
-        border-left: 4px solid darken($alma-color, 5%);
-    }
+  .first-image {
+    background-image: url("/assets/img/almadigital/StyleguideAlmaDigital.png");
+    height: 100%;
+    background-size: cover;
+  }
 
-    .first-image {
-        background-image: url("/assets/img/dividendo/on_the_floor.png");
-        height: 100%;
-        background-size: cover;
-    }
-        
-    .bg-first-image {
+  .bg-first-image {
+    background-color: $alma-color;
+  }
+
+  a {
+    color: $alma-color;
+    text-decoration: none;
+
+    &.fancy-link {
+      &:before,
+      &:after {
         background-color: $alma-color;
+      }
     }
 
-    a {
-        color: $alma-color;
-        text-decoration: none;
-        
-        &.fancy-link{
-            &:before, &:after {
-                background-color: $alma-color;
-            }
-        }
-        
-        &:visited {
-            color: darken($alma-color, 15%);
-        }
+    &:visited {
+      color: darken($alma-color, 15%);
     }
+  }
 
-    .slick-prev:before,
-    .slick-next:before {
-        color: $alma-color;
-    }
+  .slick-prev:before,
+  .slick-next:before {
+    color: $alma-color;
+  }
 
-    .little-slides {
-        max-width: 330px;
-        margin-left: auto;
-        margin-right: auto;
-    
+  .little-slides {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+
     // img {
     //     margin: 0 15vw 0 20vw;
     // }
-    }
+  }
 }

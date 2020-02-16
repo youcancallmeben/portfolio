@@ -58,11 +58,6 @@ em {
   }
 }
 
-// remove the grid dot effect
-p {
-  background: #fbfaf3;
-}
-
 
 
 /**
@@ -83,6 +78,9 @@ dl,
 figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
+  // remove the grid dot effect
+  background: #fbfaf3;
+
 }
 
 
@@ -100,13 +98,46 @@ main {
 /**
  * Images
  */
-img {
-  max-width: 100%;
-  vertical-align: middle;
+/* will select p not directly followed by div.red */
+// #myContainer > p + div:not(.red) 
+
+p > img + em:not(.caption){
   @include margin-bottom(3);
   @include margin-top(2);
 }
 
+p > img + em{
+  @include margin-bottom(3);
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  // @include margin-top(2);
+
+  &.slick-slide {
+    margin-bottom: 0;
+  }
+
+  & + em {
+    font-size: $small-font-size;
+    color: $grey-color;
+    background: none;
+    // @include margin-top(-2);
+    // @include margin-bottom(2);
+  }
+  
+}
+// hack in order to have margin bottom after dot of slide carousel, not before
+p.slick-dotted.slick-slider{
+  @include margin-bottom(3);
+  @include margin-top(1.5);
+}
+
+.slick-dots{
+  position: relative;
+}
 
 
 /**
@@ -152,6 +183,7 @@ h1 {
   background: #fbfaf3;
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -161,6 +193,13 @@ h6 {
   font-weight: 700;
   color: black;
   background: #fbfaf3;
+  @include margin-top(3);
+  @include margin-bottom(1);
+}
+
+// remmove awkward spacing when multiple headings close to each other
+h2 + h3, h2 + h4{
+  @include margin-top(1);
 }
 
 

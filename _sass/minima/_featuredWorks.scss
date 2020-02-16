@@ -32,15 +32,15 @@ li.works {
     }
 }
 
-#cardAlma{
+#card_almadigital{
     background-color: $alma-color;
 }
 
-#cardDividendo {
+#card_dividendo {
     background: $dividendo-color; 
 }
 
-#cardAutoflow {
+#card_autoflow {
     background: $autoflow-color;
 }
 
@@ -63,7 +63,7 @@ li.works {
         
         > h3 {
             background: transparent;
-            margin-bottom: 0px;
+            margin: 0;
             color: white;
         }
     }

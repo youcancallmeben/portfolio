@@ -19,8 +19,11 @@ tutti mi chiamano Ben
 
 Sono un giovane e curioso UI designer
 
+<!-- [Contattami2](mailto:mail@youcancallmeben.design?subject=Hei Ben!){:#mailme .fancy-link} -->
+
 {:#looking}
 *Al momento sono aperto a nuove opportunità lavorative*
+
 
 <!-- 
 Progetto interfacce utente.

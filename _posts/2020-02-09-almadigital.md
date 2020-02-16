@@ -1,23 +1,24 @@
 ---
 layout:         post
-title:          Alma Digital
-titleh1:        Alma Digital
+title:          AlmaDigital
+titleh1:        AlmaDigital
 description:    Rebrand dell'identità digitale dell'agenzia di marketing Alma Digital
 permalink:      almadigital
 categories:     jekyll update
 date:           2019-12-09 17:30:50 +0100
 tag:            [ui design, rebrand]
-card-image:     img/autoflow/cardMockup.png
-first-image:    /assets/img/autoflow/cardMockup.png
+card-image:     img/almadigital/01. logoMark-bgTransp-colorBright-w1000.png
+first-image:    /assets/img/almadigital/StyleguideAlmaDigital.png
 overview:       Rebrand dell'identità digitale dell'agenzia di marketing Alma Digital
-periodo:        2 mesi  <br> <em>(gennaio 2020 <br> marzo 2020)</em>
+periodo:        2 mesi  <br>gen—mar 2020
 ruolo:          UI Design, <br> Brand Design
 tools:          Figma, <br> Mural, <br> Notion
 ---
 
 
-* TOC 
-{:toc} 
+<!-- * TOC 
+{:toc}  -->
+
 
 ## Il problema
 
@@ -42,13 +43,6 @@ Fin da subito mi è stato chiaro che la chiave per il successo del progetto foss
 La situazione di partenza era piuttosto confusa — ma questo significava semplicemente che c'era un ampio margine di miglioramento. 
 Fin da subito mi è stato chiaro di non dover fare nulla di sensazionale, semplicemente creare una brand image pulita, semplice da mantenere e consistente in tutti i touch point.
 
-Il lavoro è stato diviso in diverse fasi:
-- Definizione della direzione
-- Brand Identity
-- Social Network
-- Sito web
-- Case study
-
 ### Essenza
 
 Il primo step è stato definire l'essenza di Alma Digital: Mission, value proposition e Buyer persona. 
@@ -61,9 +55,11 @@ Ci sono voluti diversi workshop e numerosi post it, ma alla fine siamo riusciti 
 È stato effettuato un workshop per decidere lo stile comunicativo da adottare. 
 Ho proposto un card sorting dove abbiamo categorizzato alcune caratteristiche
 
+{: .responsive}
 ![Card Sorting]({{site.baseurl}}/assets/img/almadigital/Card Sorting.jpeg)
-
 ![Risultati Card Sorting]({{site.baseurl}}/assets/img/almadigital/Risultati Card Sorting.jpg)
+
+<!-- Immagine dei post-it su mural -->
 
 
 A seguito di questo incontro sono state definite alcune regole per la comunicazione riguardanti la voice e il tone of voice.
@@ -74,6 +70,8 @@ Nel documento sono esplicitate alcune convenzioni stilistiche, le caratteristich
 Abbiamo creato anche un documento con le [linee guida per la comunicazione specifiche per i social](https://docs.google.com/document/d/1PfJKnZVKY1yGVqUVGNkh9NASLkbL20Iwey-NyACAgL8/edit?usp=sharing){:.fancy-link}. Nel documento diverse indicazioni per i  contenuti da postare nei diversi social, sui diversi target e quali filtri usare nelle foto.
 
 #### Visual 
+
+<!-- Moodboard -->
 Abbiamo effettuato un workshop dove abbiamo esaminato alcune soluzioni grafiche. Rispetto ad un cliente tipo credo questa occasione sia stata relativamente facile perché avevo già un'idea di quello che Alma cercava nella sua nuova identità visual: qualcosa di pulito, con molto spazio bianco, poche fotografie (non ne hanno di qualità) e molto minimale. Qualcosa che urli "sappiamo il fatto nostro" senza però essere pretenziosi.
 
 {:.responsive}
@@ -114,8 +112,10 @@ La scala tipografica usata per le grandezze dei font è una perfect fifth (2:3) 
 Onestamente, il logo design non è il mio forte. Mi interessa, quando capita leggo case study di rebranding di Pentagram, ma non mi cimento spesso (almeno questo settore ho imparato a scartarlo!)
 Per questo motivo ho pensato di non fare nulla di eccezionale: prendere il logo vecchio, aggiornare la tipografia e dargli un aspetto più professionale e meno *startupposo*.
 
-![Logo Choice]({{site.baseurl }}/assets/img/almadigital/alma mobile logo old.png)
-*Logo originale*
+{:.responsive}
+![Logo Nuovo]({{site.baseurl }}/assets/img/almadigital/A. Logo Alma + scritta - sfondo trasparente.png)
+![Logo Vecchio]({{site.baseurl }}/assets/img/almadigital/alma mobile logo old.png)
+<!-- *Logo originale*{:.caption} -->
 
 Nella proposta di logo ho cambiato il logomark, ragionato un pochino sugli spazi ed inserito un colore solid per tutto il logo.
 
@@ -180,3 +180,8 @@ Attualmente il prototipo presenta un livello di fedeltà mid: È comunque svilup
 [Link al prototipo in Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=185%3A10&viewport=194%2C-319%2C0.08579563349485397&scaling=min-zoom){:.fancy-link}{:target="_blank"}
 
 <!-- ![Protipo Hi-fi]({{site.baseurl}}/assets/img/almadigital/Hi-fi Prototype 01.png) -->
+\\
+\\
+\\
+Ti è piaciuto quello che hai appena letto? [Dimmi cosa ne pensi :)](mailto:mail@youcancallmeben.design?subject=Hei Ben!){:#mailme .fancy-link}
+\\
