@@ -17,7 +17,6 @@ tools:          Figma, <br> Mural, <br> Notion
 
 
 ## Il problema
-
 Alma Digital è un'agenzia di web marketing. In Alma ho effettuato 8 mesi di tirocinio come web designer. Finito il periodo di tirocinio mi sono offerto di continuare la nostra collaborazione con un progetto di rivisitazione della loro Brand Identity.
 
 La loro precedente Brand image ruotava attorno all'idea di attrarre clienti appartenenti a startup e PMI — mentre adesso il target si è spostato più su *B2B* ed *e-commerce*.
@@ -25,17 +24,15 @@ La loro precedente Brand image ruotava attorno all'idea di attrarre clienti appa
 L'obiettivo del progetto era di rivedere l'intera immagine con cui Alma Digital si presenta, sia online che offline, rendendola **consistente** in tutti i touchpoint con il cliente.
 
 
-
 ## Processo
 
 ### Organizzazione del lavoro
-
 Fin da subito mi è stato chiaro che la chiave per il successo del progetto fosse la **comunicazione** con il cliente. Ho cercato di coinvolgerli nel processo attraverso meeting periodici per allinearci e collezionare feedback.
 
 La situazione di partenza era piuttosto confusa — ma questo significava semplicemente che c'era un ampio margine di miglioramento.
 
-### Essenza
 
+### Essenza
 Il primo step è stato definire l'essenza di Alma Digital: princìpi alla base, mission, value proposition e buyer persona.
 
 Un lavoro del genere era stato fatto in passato tramite Business Model Canva, ma essendo cambiato il target e la struttura aziendale andava completamente rivisto.
@@ -46,9 +43,9 @@ Ci sono voluti diversi workshop e numerosi post it, ma alla fine siamo riusciti 
 ![Overview]({{site.baseurl}}/assets/img/almadigital/Overview.png)
 ![Chi vogliamo]({{site.baseurl}}/assets/img/almadigital/Chi vogliamo.png)
 ![Come lo fa]({{site.baseurl}}/assets/img/almadigital/Come lo fa.png)
-![Cosa fa concretamente]({{site.baseurl}}/assets/img/almadigital/cosa fa concretamente.png)
-![Cosa fa in astratto]({{site.baseurl}}/assets/img/almadigital/cosa fa in astratto.png)
-![Problemi dei clienti]({{site.baseurl}}/assets/img/almadigital/problemi dei clienti.png)
+![Cosa fa concretamente]({{site.baseurl}}/assets/img/almadigital/Cosa fa concretamente.png)
+![Cosa fa in astratto]({{site.baseurl}}/assets/img/almadigital/Cosa fa in astratto.png)
+![Problemi dei clienti]({{site.baseurl}}/assets/img/almadigital/Problemi dei clienti.png)
 
 
 ### Stile comunicativo
@@ -59,7 +56,7 @@ A seguito di questo incontro sono state definite alcune regole per la comunicazi
 Abbiamo creato anche un documento con le [linee guida per la comunicazione specifiche per i social](https://docs.google.com/document/d/1PfJKnZVKY1yGVqUVGNkh9NASLkbL20Iwey-NyACAgL8/edit?usp=sharing). Nel documento sono presenti indicazioni rispetto ai contenuti e ai target.
 
 {: .responsive}
-![Risultati Card Sorting]({{site.baseurl}}/assets/img/almadigital/Risultati Card Sorting.jpg)
+![Risultati Card Sorting]({{site.baseurl}}/assets/img/almadigital/Risultati card sorting.jpg)
 ![Card Sorting]({{site.baseurl}}/assets/img/almadigital/Card Sorting.jpeg)
 
 
@@ -104,7 +101,7 @@ Da quando Alma è nata il logo è sempre stata la freccia circoscritta in un rom
 Non volevamo stravolgere il logo: volevamo semplicemente dare al logo un tono più *corporate* e meno *startup*. Abbiamo aggiornato il logotype, prestato  maggiore attenzione alle proporzioni e ricolorato con il blu brand di Alma.
 
 
-![Logo Vecchio]({{site.baseurl }}/assets/img/almadigital/logo old.png){:.one-half}
+![Logo Vecchio]({{site.baseurl }}/assets/img/almadigital/Logo old.png){:.one-half}
 ![Logo Nuovo]({{site.baseurl }}/assets/img/almadigital/A. Logo Alma + scritta - sfondo trasparente.png){:.one-half}
 
 \\
@@ -133,7 +130,7 @@ Il nuovo materiale è **perfetto per scriverci sopra**
 
 *Nota positiva*: il materiale utilizzato per i biglietti da visita è ricavato dal materiale prodotto nel creare le t-shirt.
 
-![Biglietti da visita]({{site.baseurl}}/assets/img/almadigital/biglietti da visita - grid.png)
+![Biglietti da visita]({{site.baseurl}}/assets/img/almadigital/Biglietti da visita - grid.png)
 
 
 ### Portfolio
