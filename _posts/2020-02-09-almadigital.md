@@ -8,7 +8,7 @@ categories:     jekyll update
 date:           2019-12-09 17:30:50 +0100
 tag:            [ui design, rebrand]
 card-image:     img/almadigital/01. logoMark-bgTransp-colorBright-w1000.png
-first-image:    /assets/img/almadigital/StyleguideAlmaDigital.png
+first-image:    /assets/img/almadigital/AlmaDigitalStyleguide-mockup.png
 overview:       Rebrand dell'identità digitale dell'agenzia di marketing Alma Digital
 periodo:        2 mesi  <br>gen—mar 2020
 ruolo:          UI Design, <br> Brand Design
