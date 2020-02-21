@@ -172,6 +172,5 @@ Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai a
 
 \\
 \\
-\\
 [← Precedente Case study · Autoflow]({{site.baseurl}}/autoflow){:.one-half}
 [Prossimo Case study · Dividendo →]({{site.baseurl}}/dividendo){:.one-half style="text-align:right"}

@@ -204,15 +204,11 @@ Un aspetto insidioso nella gestione  -->
 
 </section>
 
-
-\\
 \\
 \\
 \\
 Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai appena letto? In realtà questa è solo una piccola finestra sul progetto, ci sarebbe ancora taaaanto da dire! Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben"){:.fancy-link} e ne parliamo di persona? :)
 
-\\
-\\
 \\
 [← Precedente Case study · Alma Digital]({{site.baseurl}}/almadigital){:.one-half}
 [Prossimo Case study · Autoflow →]({{site.baseurl}}/autoflow){:.one-half style="text-align:right"}
