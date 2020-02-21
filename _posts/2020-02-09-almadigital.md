@@ -170,3 +170,8 @@ Al momento il prototipo Hi-Fi è in fase di sviluppo. Allo stato attuale (20/02/
 \\
 Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai appena letto? In realtà questa è solo una piccola finestra sul progetto, ci sarebbe ancora taaaanto da dire! Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben"){:.fancy-link} e ne parliamo di persona? :)
 
+\\
+\\
+\\
+[← Precedente Case study · Autoflow]({{site.baseurl}}/autoflow){:.one-half}
+[Prossimo Case study · Dividendo →]({{site.baseurl}}/dividendo){:.one-half style="text-align:right"}

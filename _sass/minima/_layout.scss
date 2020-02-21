@@ -325,7 +325,8 @@
  */
 .one-half {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width: calc(50% - (#{$spacing-unit} / 2));
+  width: calc(50% - (#{$spacing-unit} / 10));
+  display: inline-block;
 }
 
 .content {
