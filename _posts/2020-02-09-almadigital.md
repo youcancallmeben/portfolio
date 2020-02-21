@@ -17,17 +17,17 @@ tools:          Figma, <br> Mural, <br> Notion
 
 
 ## Il problema
-Alma Digital è un'agenzia di web marketing. In Alma ho effettuato 8 mesi di tirocinio come web designer. Finito il periodo di tirocinio mi sono offerto di continuare la nostra collaborazione con un progetto di rivisitazione della loro Brand Identity.
+>L'obiettivo del progetto è rivedere l'immagine con cui Alma Digital si presenta, rendendola **coerente** con il nuovo posizionamento sul mercato e **consistente** in tutti i touchpoint (sia online che offline).
 
-La loro precedente Brand image ruotava attorno all'idea di attrarre clienti appartenenti a startup e PMI — mentre adesso il target si è spostato più su *B2B* ed *e-commerce*.
+Alma Digital è l'agenzia di web marketing dove ho effettuato tirocinio per 8 mesi come web designer. Finito il periodo di tirocinio mi sono offerto di continuare la nostra collaborazione con un progetto di rivisitazione della loro *Brand Identity*.
 
-L'obiettivo del progetto era di rivedere l'intera immagine con cui Alma Digital si presenta, sia online che offline, rendendola **consistente** in tutti i touchpoint con il cliente.
+Precedentemente la loro Brand image ruotava attorno all'idea di attrarre clienti appartenenti a startup e PMI — nell'ultimo anno il target si è spostato invece più su **B2B** ed **e-commerce**.
 
 
 ## Processo
 
 ### Organizzazione del lavoro
-Fin da subito mi è stato chiaro che la chiave per il successo del progetto fosse la **comunicazione** con il cliente. Ho cercato di coinvolgerli nel processo attraverso meeting periodici per allinearci e collezionare feedback.
+>Fin da subito mi è stato chiaro che la chiave per il successo del progetto fosse la **comunicazione** con il cliente. Ho cercato di coinvolgerli nel processo attraverso meeting periodici per allinearci e collezionare feedback.
 
 La situazione di partenza era piuttosto confusa — ma questo significava semplicemente che c'era un ampio margine di miglioramento.
 
@@ -74,7 +74,7 @@ Abbiamo inoltre effettuato un workshop dove abbiamo esaminato diverse direzioni 
 #### Palette
 La palette di colori primaria è costruita attorno ad un royal blue, da sempre pilastro dell'identità di Alma Digital. Come colori neutrali sono stati scelti dei grigi un pizzico saturati di blu.Il ciano, rosso e giallo sono utilizzati come colori di supporto. 
 
-Sono state create più versioni della palette in base alle esigenze da 10, 20 o 50 colori. La versione della palette semplificata copre quasi tutte le esigenze, ma può essere utile avere dei colori intermedi nel momento in cui dovesse essercene bisogno.
+>Sono state create più versioni della palette in base alle esigenze da 10, 20 o 50 colori. La versione della palette semplificata copre quasi tutte le esigenze, ma può essere utile avere dei colori intermedi
 
 {:.responsive .little-slides}
 ![Color Guide]({{site.baseurl }}/assets/img/almadigital/Color Guide - Alma Digital - 01.jpg)
@@ -124,13 +124,19 @@ Sono stati preparati diversi assets per il team di Alma: versione dark, light, c
 La versione del biglietto da visita precedente era troppo affollata. 
 Volevamo che la versione attuale fosse il più essenziale possibile. 
 
-È stata prestata particolare attenzione al **materiale** del biglietto da visita: la carta utilizzata in precedente aveva un effetto plasticoso e non era possibile scriverci. 
-Al tatto il biglietto da visita ha il feeling ruvido tipico delle carte a grammatura alta. 
-Il nuovo materiale è **perfetto per scriverci sopra** 
+>È stata prestata particolare attenzione ai **materiali**: la carta utilizzata in precedenza aveva un effetto *cheap* e *plasticoso*. \\
+Al tatto il nuovo biglietto da visita ha il feeling ruvido tipico della carta a grammatura alta ed è **perfetto per scriverci sopra** 
 
 *Nota positiva*: il materiale utilizzato per i biglietti da visita è ricavato dal materiale prodotto nel creare le t-shirt.
 
 ![Biglietti da visita]({{site.baseurl}}/assets/img/almadigital/Biglietti da visita - grid.png)
+
+
+### Spaziatura
+Quando lavoro cerco sempre di automatizzare le scelte che effettuo — per questo motivo ho definito una scala di spaziature. 
+La scala segue un andamento logaritmico per far sì che le variazioni tra gli step siano evidenti. Le misure sono tutte divisibili per 4 per mantenere la 4px grid.
+
+![Spacing Scale]({{site.baseurl}}/assets/img/almadigital/Spacing scale.png)
 
 
 ### Portfolio
@@ -156,12 +162,11 @@ Per il momento la versione con i differenti path è stata accantonata.
 ### Prototipo Hi-fi
 Al momento il prototipo Hi-Fi è in fase di sviluppo. Allo stato attuale (20/02/20) stiamo discutendo il layout e la gerarchia delle informazioni. In seguito verrano inserite decorazioni e animazioni.
 
-[Prototipo hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=274%3A1118&viewport=213%2C-367%2C0.05849941447377205&scaling=min-zoom){:.fancy-link}{:target="_blank"}
+[Prototipo hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=274%3A1538&viewport=100%2C-68%2C0.06009593605995178&scaling=min-zoom){:.fancy-link}{:target="_blank"}
 
-<!-- ![Protipo Hi-fi]({{site.baseurl}}/assets/img/almadigital/Hi-fi Prototype 01.png) -->
 \\
 \\
 \\
 \\
-Sei interessato a quello che hai appena letto? In realtà questa è solo una piccola finestra sul progetto, ci sarebbe ancora taaaanto da dire! Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben"){:.fancy-link} e ne parliamo di persona? :)
+Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai appena letto? In realtà questa è solo una piccola finestra sul progetto, ci sarebbe ancora taaaanto da dire! Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben"){:.fancy-link} e ne parliamo di persona? :)
 
