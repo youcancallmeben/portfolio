@@ -3,19 +3,19 @@ layout: default
 ---
 <article class="post">
 
-    <header class="post-header padding-header">
-        <h1 class="post-title">
-            {{ page.title | escape }}
-        </h1>
-    </header>
 
     <div class="half-divided">
-        <div class="post-content panel left">
-            {{ content }}
+        <div>
+            <header class="post-header padding-header">
+                <h1 class="post-title">
+                    {{ page.title | escape }}
+                </h1>
+            </header>
+            <div class="post-content left">
+                {{ content }}
+            </div>
         </div>
-        <div class="half-image panel right">
-            <img class="sticky all-height" src="{{site.baseurl}}/assets/img/benBig.png">
-        </div>
+        <img class="sticky all-height" src="{{site.baseurl}}/assets/img/benBig.png">
     </div>
 
 
