@@ -1,0 +1,46 @@
+article.speckandtech {
+  blockquote {
+    border-left: 4px solid darken($set-color, 5%);
+  }
+
+  .first-image {
+    background-image: url("/assets/img/speckandtech/cibo.jpg");
+    height: 100%;
+    background-size: cover;
+  }
+
+  .bg-first-image {
+    background-color: $set-color;
+  }
+
+  a {
+    color: $set-color;
+    text-decoration: none;
+
+    &.fancy-link {
+      &:before,
+      &:after {
+        background-color: $set-color;
+      }
+    }
+
+    &:visited {
+      color: darken($set-color, 15%);
+    }
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: $set-color;
+  }
+
+  .little-slides {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // img {
+    //     margin: 0 15vw 0 20vw;
+    // }
+  }
+}
