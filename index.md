@@ -17,7 +17,7 @@ I design and develop user interfaces-->
 Ciao 👋 *mi chiamo Beniamino, ma*{: .no-em style="color:lightgray"}  \\
 tutti mi chiamano Ben
 
-Sono un giovane e curioso UI designer
+Sono uno UI Designer che scrive anche codice
 
 <!-- [Contattami2](mailto:mail@youcancallmeben.design?subject=Hei Ben!){:#mailme .fancy-link} -->
 
