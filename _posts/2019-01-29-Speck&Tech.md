@@ -6,9 +6,9 @@ description:    Qual è il segreto dietro alle più fiorenti community? Un'anali
 date:           2018-05-30 17:29:58 +0100
 categories:     jekyll update
 tag:            [user research]
-permalink:      speck&tech
+permalink:      speckandtech
 card-image:     img/speckandtech/featuredImage.jpg
-first-image:    /assets/img/speckandtech/cibo.png
+first-image:    /assets/img/speckandtech/laFolla.jpg
 overview:       Qual è il segreto dietro alle più fiorenti community? Un'analisi sociologica.
 periodo:        2 mesi  <br>apr—mag 2018
 ruolo:          Interviste, <br> Scrittura documento <br> 
@@ -77,7 +77,10 @@ Grazie a questo progetto abbiamo potuto avvicinarci molto agli organizzatori i q
 \\
 \\
 \\
-Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai appena letto? In realtà questa è solo una piccola finestra sul progetto, ci sarebbe ancora taaaanto da dire! Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben, ti va un caffé?"){:.fancy-link} e ne parliamo di persona? :)
+Vorresti vedere la versione completa dei documenti? Ti è piaciuto quello che hai appena letto? In realtà questa è solo una piccola sbirciatina al progetto, ci sarebbe ancora taaaanto da dire! 
+\\
+Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben, ti va un caffé?"){:.fancy-link} e ne parliamo di persona? :)
 
 \\
+[](){:.one-half style="text-align:left"}
 [Prossimo Case study · Autoflow →]({{site.baseurl}}/autoflow){:.one-half style="text-align:right"}
