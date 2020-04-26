@@ -14,7 +14,7 @@ my name is Beniamino, but *you can call me Ben*
 I design and develop user interfaces-->
 
 {:#mynameis}
-Ciao 👋 *mi chiamo Beniamino, ma*{: .no-em style="color:lightgray"}  \\
+Ciao 👋 *mi chiamo Beniamino, ma*{: .no-em style="color:#ADADAD"}  \\
 tutti mi chiamano Ben
 
 Sono uno UI Designer che scrive anche codice
