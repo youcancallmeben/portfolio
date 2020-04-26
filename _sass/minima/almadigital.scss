@@ -14,7 +14,7 @@ article.almadigital {
   }
 
   a {
-    color: $alma-color;
+    color: lighten($alma-color, 5%);
     text-decoration: none;
 
     &.fancy-link {
@@ -25,7 +25,7 @@ article.almadigital {
     }
 
     &:visited {
-      color: darken($alma-color, 15%);
+      color: $alma-color;
     }
   }
 

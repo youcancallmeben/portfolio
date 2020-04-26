@@ -6,13 +6,13 @@ description:    Rebrand dell'identità digitale dell'agenzia di marketing Alma D
 permalink:      almadigital
 categories:     jekyll update
 date:           2019-12-09 17:30:50 +0100
-tag:            [ui design, rebrand]
+tag:            [ui, rebrand, development]
 card-image:     img/almadigital/01. logoMark-bgTransp-colorBright-w1000.png
 first-image:    /assets/img/almadigital/AlmaDigitalStyleguide-mockup.png
 overview:       Rebrand dell'identità digitale dell'agenzia di marketing Alma Digital
-periodo:        2 mesi  <br>gen—mar 2020
-ruolo:          UI Design, <br> Brand Design
-tools:          Figma, <br> Mural, <br> Notion
+periodo:        3 mesi  <br>gen—apr 2020
+ruolo:          UI Design, <br> Brand Design, <br> Development
+tools:          Figma, <br> Mural, <br> Notion, <br> GitHub
 ---
 
 
@@ -35,9 +35,9 @@ La situazione di partenza era piuttosto confusa — ma questo significava sempli
 ### Essenza
 Il primo step è stato definire l'essenza di Alma Digital: princìpi alla base, mission, value proposition e buyer persona.
 
-Un lavoro del genere era stato fatto in passato tramite Business Model Canva, ma essendo cambiato il target e la struttura aziendale andava completamente rivisto.
+Un lavoro del genere era stato fatto in passato usando il Business Model Canvas, ma essendo cambiato il target e la struttura aziendale andava completamente rivisto.
 
-Ci sono voluti diversi workshop e numerosi post it, ma alla fine siamo riusciti a stilare un documento che definisse [l'essenza di Alma Digital](https://drive.google.com/open?id=137cKsqr84eaTk5H57rdlcCEfTqnZ8uqW)
+Ci sono voluti diversi workshop e numerosi post-it, ma alla fine siamo riusciti a stilare un documento che definisse [l'essenza di Alma Digital](https://drive.google.com/open?id=137cKsqr84eaTk5H57rdlcCEfTqnZ8uqW){: .fancy-link}{:target="_blank"}.
 
 {: .responsive}
 ![Overview]({{site.baseurl}}/assets/img/almadigital/Overview.png)
@@ -49,11 +49,11 @@ Ci sono voluti diversi workshop e numerosi post it, ma alla fine siamo riusciti 
 
 
 ### Stile comunicativo
-In uno dei nostri meeting abbiamo effettuato un card sorting per fare chiarezza rispetto allo stile comunicativo da adottare.
+In uno dei nostri meeting abbiamo effettuato un **card sorting** per fare chiarezza rispetto allo stile comunicativo da adottare.
 
-A seguito di questo incontro sono state definite alcune regole per la comunicazione riguardanti la voice e il tone of voice. Il risultato è stato un documento chiamato [linee guida per la comunicazione](https://docs.google.com/document/d/1o2ZTG9AfZ_s__Sf6pIs2vHYUTENtaOIhWxKWqHnXeAI/edit?usp=sharing), dove sono esplicitate le caratteristiche della voce di Alma Digital e alcune convenzioni stilistiche — le linee guida sono massicciamente ispirate dalle [linee guida di Mailchimp](https://styleguide.mailchimp.com/).
+A seguito di questo incontro sono state definite alcune regole per la comunicazione riguardanti voice e il tone of voice. Il risultato è stato un documento chiamato [linee guida per la comunicazione](https://docs.google.com/document/d/1o2ZTG9AfZ_s__Sf6pIs2vHYUTENtaOIhWxKWqHnXeAI/edit?usp=sharing){: .fancy-link}{:target="_blank"}, dove sono esplicitate le caratteristiche della voce di Alma Digital e alcune convenzioni stilistiche — le linee guida sono massicciamente ispirate dalle [linee guida di Mailchimp](https://styleguide.mailchimp.com/){:target="_blank"}.
 
-Abbiamo creato anche un documento con le [linee guida per la comunicazione specifiche per i social](https://docs.google.com/document/d/1PfJKnZVKY1yGVqUVGNkh9NASLkbL20Iwey-NyACAgL8/edit?usp=sharing). Nel documento sono presenti indicazioni rispetto ai contenuti e ai target.
+Abbiamo creato anche un documento con le [linee guida per la comunicazione specifiche per i social](https://docs.google.com/document/d/1PfJKnZVKY1yGVqUVGNkh9NASLkbL20Iwey-NyACAgL8/edit?usp=sharing){:target="_blank"}. Nel documento sono presenti indicazioni rispetto ai contenuti e ai target.
 
 {: .responsive}
 ![Risultati Card Sorting]({{site.baseurl}}/assets/img/almadigital/Risultati card sorting.jpg)
@@ -61,7 +61,7 @@ Abbiamo creato anche un documento con le [linee guida per la comunicazione speci
 
 
 #### Moodboard 
-Abbiamo inoltre effettuato un workshop dove abbiamo esaminato diverse direzioni visual per cercare di capire quale veicolasse meglio i valori e le caratteristiche emerse durante il card sorting.
+Abbiamo inoltre effettuato un workshop dove abbiamo esaminato **diverse direzioni visual** per cercare di capire quale veicolasse meglio i valori e le caratteristiche emerse durante il card sorting.
 
 {:.responsive}
 ![Moodboard]({{site.baseurl}}/assets/img/almadigital/Moodboard.png)
@@ -72,9 +72,9 @@ Abbiamo inoltre effettuato un workshop dove abbiamo esaminato diverse direzioni 
 ## Output
 
 #### Palette
-La palette di colori primaria è costruita attorno ad un royal blue, da sempre pilastro dell'identità di Alma Digital. Come colori neutrali sono stati scelti dei grigi un pizzico saturati di blu.Il ciano, rosso e giallo sono utilizzati come colori di supporto. 
+La palette di colori primaria è costruita attorno ad un **royal blue**, da sempre pilastro dell'identità di Alma Digital. Come colori neutrali sono stati scelti dei grigi un pizzico saturati di blu. Il ciano, rosso e giallo sono utilizzati come colori di supporto. 
 
->Sono state create più versioni della palette in base alle esigenze da 10, 20 o 50 colori. La versione della palette semplificata copre quasi tutte le esigenze, ma può essere utile avere dei colori intermedi
+>Sono state create 3 versioni della palette per coprire tutte le esigenze: 10, 20 o 50 colori.
 
 {:.responsive .little-slides}
 ![Color Guide]({{site.baseurl }}/assets/img/almadigital/Color Guide - Alma Digital - 01.jpg)
@@ -87,9 +87,9 @@ La palette di colori primaria è costruita attorno ad un royal blue, da sempre p
 #### Typography
 Come font sapevamo di voler qualcosa di Open Source, di molto leggibile e dall'aspetto familiare.
 
-Abbiamo scelto come font Fira Sans — progettato da Erik Spiekermann per Firefox OS — per via della sua grande versatilità: dispone di 16 stili e anche di una versione condensed.
+Abbiamo scelto come font **Fira Sans** — progettato da Erik Spiekermann per Firefox OS — per via della sua grande versatilità: dispone di 16 stili e anche di una versione condensed.
 
-La scala tipografica usata per le grandezze dei font è una perfect fifth (2:3) mentre le line-height sono divisibili per 4 per adattarle ad una 4px grid.
+La scala tipografica usata per le grandezze dei font è una *perfect fifth* (2:3) mentre le line-height sono divisibili per 4 per adattarle ad una **4px grid**.
 
 {:.responsive .little-slides}
 ![TypographyGuide]({{site.baseurl }}/assets/img/almadigital/Typography guide - Alma Digital - 01.jpg)
@@ -107,7 +107,7 @@ Non volevamo stravolgere il logo: volevamo semplicemente dare al logo un tono pi
 \\
 \\
 Sono stati preparati diversi assets per il team di Alma: versione dark, light, con sfondo trasparente e con sfondo bianco. 
-È anche stata stilato un documento contenente *indicazioni sull'utilizzo del logo*.
+È anche stata stilato un documento contenente [indicazioni sull'utilizzo del logo](https://drive.google.com/open?id=1rOHjxE3NjoaqO4-E_3TkSCA3uPfuGScC){: .fancy-link}{:target="_blank"}.
 
 {:.responsive .little-slides}
 ![Logo Guide]({{site.baseurl }}/assets/img/almadigital/Logo Guide - Alma Digital - 01.jpg)
@@ -120,26 +120,29 @@ Sono stati preparati diversi assets per il team di Alma: versione dark, light, c
 ![Logo Guide]({{site.baseurl }}/assets/img/almadigital/Logo Guide - Alma Digital - 08.jpg)
 
 
-### Biglietto da visita
+#### Biglietto da visita
 La versione del biglietto da visita precedente era troppo affollata. 
 Volevamo che la versione attuale fosse il più essenziale possibile. 
 
->È stata prestata particolare attenzione ai **materiali**: la carta utilizzata in precedenza aveva un effetto *cheap* e *plasticoso*. \\
-Al tatto il nuovo biglietto da visita ha il feeling ruvido tipico della carta a grammatura alta ed è **perfetto per scriverci sopra** 
+>È stata prestata particolare attenzione ai materiali: la carta utilizzata in precedenza aveva un effetto cheap e plasticoso. \\
+Al tatto il nuovo biglietto da visita ha il feeling ruvido tipico della carta ad alta grammatura ed è *perfetto per scriverci sopra*.
 
-*Nota positiva*: il materiale utilizzato per i biglietti da visita è ricavato dal materiale prodotto nel creare le t-shirt.
+*Nota positiva: il materiale utilizzato per i biglietti da visita è ricavato riciclando materiale di scarto prodotto nel creare le t-shirt.*
 
+{: .responsive}
 ![Biglietti da visita]({{site.baseurl}}/assets/img/almadigital/Biglietti da visita - grid.png)
+![Biglietti da visita Fronte]({{site.baseurl}}/assets/img/almadigital/bigliettiFronte.jpg)
+![Biglietti da visita Retro]({{site.baseurl}}/assets/img/almadigital/bigliettiRetro.jpg)
 
 
-### Spaziatura
+#### Spaziatura
 Quando lavoro cerco sempre di automatizzare le scelte che effettuo — per questo motivo ho definito una scala di spaziature. 
 La scala segue un andamento logaritmico per far sì che le variazioni tra gli step siano evidenti. Le misure sono tutte divisibili per 4 per mantenere la 4px grid.
 
 ![Spacing Scale]({{site.baseurl}}/assets/img/almadigital/Spacing scale.png)
 
 
-### Portfolio
+## Portfolio
 Con il porfolio volevamo comunicare l'**esperienza** e l'affidabilità di Alma Digital.
 
 Abbiamo optato per un layout chiaro e sintetico: il contenuto deve fare da padrone. Abbiamo inserito una sezione dove presentiamo in numeri *l'impatto* che il lavoro di Alma Digital ha avuto. È presente inoltre una sezione di recensione del cliente come forma di **social proofing**.
@@ -157,12 +160,47 @@ Per il momento la versione con i differenti path è stata accantonata.
 
 [Prototipo lo-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=185%3A10&viewport=194%2C-319%2C0.08579563349485397&scaling=min-zoom){:.fancy-link}{:target="_blank"}
 
-
-
 ### Prototipo Hi-fi
-Al momento il prototipo Hi-Fi è in fase di sviluppo. Allo stato attuale (20/02/20) stiamo discutendo il layout e la gerarchia delle informazioni. In seguito verrano inserite decorazioni e animazioni.
+Il prototipo è stato sviluppato con l'intento di avere il più alto livello di fedeltà possibile. 
+Sono contento di aver scelto questo approccio perché sono emerse diverse inconsistenze fra la mia idea di UI e quella degli stakeholders.
+In particolare abbiamo iterato diverse volte sugli elementi decorativi della pagina: nonostante ci trovassimo d'accordo sulla struttura di base del sito, l'intero look and feel sembrava troppo bianco al cliente.
 
-[Prototipo hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=274%3A1538&viewport=100%2C-68%2C0.06009593605995178&scaling=min-zoom){:.fancy-link}{:target="_blank"}
+[Prototipo per desktop hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=519%3A8068&viewport=-198%2C-182%2C0.07924917340278625&scaling=min-zoom){:.fancy-link}{:target="_blank"}
+
+[Prototipo per mobile hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=341%3A83&viewport=209%2C-1067%2C0.10637693852186203&scaling=scale-down){:.fancy-link}{:target="_blank"}
+
+## Sviluppo
+C'era solo un vincolo non negoziabile nello sviluppo: il sito deve appoggiarsi a **WordPress**. 
+
+Ho scelto di usare come boilerplate per lo sviluppo del tema [_s](https://underscores.me/){:target="_blank"}. \\
+Per sviluppare più facilmente i CSS ho usato SASS. \\
+Lo sviluppo mi ha costretto a rispolverare le mie conoscenze di PHP che erano a dir poco arrugginite. \\
+Ho utilizzato GSAP come librerie esterne per gestire le animazioni. 
+
+\\
+Alcuni criteri per massimizzare la soddisfazione degli stakeholder:
+- Usabilità chi non sa scrivere codice ma è comunque tech-savvy
+- Mantenibilità futura (da parte dello sviluppatore in-house)
+- Restringere la possibilità di scelta grazie ai design token definiti nelle fasi precedenti
+
+> Mi piace lavorare con i vincoli, credo alleggeriscano il carico cognitivo e facilitino la comunicazione. Non so come avrei fatto senza design token per spaziature, font e colori.
+
+Il sito si basa su Gutenberg e sfrutta massicciamente il CSS orientato ad oggetti. es: le spaziature sono applicate tramite classi: margin-top-n. Il cliente può mettere margin-top-7 per avere un margine superiore di 64px. 
+Non è quello che cercava? margin-top-6 è 48px e margin-top-8 è di 96px.
+\\
+Per gestire spaziature diverse nella versione mobile ho creato classi sm--margin-top-n che sovrascrivono le classi margin-top nei casi in cui si attivino le media query.
+
+> Mi sono auto-imposto come criteri di successo la performance e la facilità di modifica del layout da parte di non-programmatori.
+
+![Performance sito]({{ site.baseurl }}/assets/img/almadigital/GTmetrix.jpeg)
+
+lo sviluppo in locale è stato possibile grazie a XAMPP. e tutto il codice depositato su una [repo GitHub](https://github.com/SRFeesha/wp-alma){:target="_blank"}, utile più che altro come reference personale.
+<!-- Uno dei problemi che ho incontrato una volta entrato nella fase di sviluppo è stata la mancanza di una Single Source of Truth. Nel momento in cui lo sviluppo in locale e lo sviluppo online differiscono comincia a insinuarsi dubbi rispetto a ciò che si sta facendo. L'approccio a Wordpress come headless CMS avrebbe potuto ovviare a questo problema, ma la verità è che sono venuto a conoscenza di questa possibilità in fase avanzata di sviluppo -->
+
+
+
+{:.central}
+[Sito online](https://almadigital.it/){:.fancy-link}{:target="_blank"}
 
 \\
 \\
