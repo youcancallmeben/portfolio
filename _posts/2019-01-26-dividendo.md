@@ -5,7 +5,7 @@ titleh1:        Dividendo
 description:    Aumentare l’efficienza e semplificare il processo di divisione dei costi tra persone che condividono esperienze
 date:           2019-01-26 17:30:58 +0100
 categories:     jekyll update
-tag:            [ux, product design]
+tag:            [ux, design process]
 permalink:      dividendo
 card-image:     img/dividendo/cardMockup.png
 first-image:    /assets/img/dividendo/Overview.png
@@ -210,5 +210,5 @@ Un aspetto insidioso nella gestione  -->
 Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai appena letto? In realtà questa è solo una piccola finestra sul progetto, ci sarebbe ancora taaaanto da dire! Perché non [organizziamo un caffé](mailto:mail@youcancallmeben.design?Subject="Ciao Ben"){:.fancy-link} e ne parliamo di persona? :)
 
 \\
-[← Precedente Case study · Alma Digital]({{site.baseurl}}/almadigital){:.one-half}
+[← Precedente Case study · Lorem Ipsum]({{site.baseurl}}/ds){:.one-half}
 [Prossimo Case study · Autoflow →]({{site.baseurl}}/autoflow){:.one-half style="text-align:right"}

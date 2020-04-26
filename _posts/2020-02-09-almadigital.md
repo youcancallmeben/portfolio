@@ -6,7 +6,7 @@ description:    Rebrand dell'identità digitale dell'agenzia di marketing Alma D
 permalink:      almadigital
 categories:     jekyll update
 date:           2019-12-09 17:30:50 +0100
-tag:            [ui, rebrand, development]
+tag:            [ui, rebrand, dev]
 card-image:     img/almadigital/01. logoMark-bgTransp-colorBright-w1000.png
 first-image:    /assets/img/almadigital/AlmaDigitalStyleguide-mockup.png
 overview:       Rebrand dell'identità digitale dell'agenzia di marketing Alma Digital
@@ -167,7 +167,7 @@ In particolare abbiamo iterato diverse volte sugli elementi decorativi della pag
 
 [Prototipo per desktop hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=519%3A8068&viewport=-198%2C-182%2C0.07924917340278625&scaling=min-zoom){:.fancy-link}{:target="_blank"}
 
-[Prototipo per mobile hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=341%3A83&viewport=209%2C-1067%2C0.10637693852186203&scaling=scale-down){:.fancy-link}{:target="_blank"}
+[Prototipo per mobile hi-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=341%3A83&viewport=209%2C-1067%2C0.10637693852186203&scaling=scale-down){:target="_blank"}
 
 ## Sviluppo
 C'era solo un vincolo non negoziabile nello sviluppo: il sito deve appoggiarsi a **WordPress**. 
@@ -179,13 +179,13 @@ Ho utilizzato GSAP come librerie esterne per gestire le animazioni.
 
 \\
 Alcuni criteri per massimizzare la soddisfazione degli stakeholder:
-- Usabilità chi non sa scrivere codice ma è comunque tech-savvy
+- Usabilità per chi non sa scrivere codice ma è comunque tech-savvy
 - Mantenibilità futura (da parte dello sviluppatore in-house)
 - Restringere la possibilità di scelta grazie ai design token definiti nelle fasi precedenti
 
 > Mi piace lavorare con i vincoli, credo alleggeriscano il carico cognitivo e facilitino la comunicazione. Non so come avrei fatto senza design token per spaziature, font e colori.
 
-Il sito si basa su Gutenberg e sfrutta massicciamente il CSS orientato ad oggetti. es: le spaziature sono applicate tramite classi: margin-top-n. Il cliente può mettere margin-top-7 per avere un margine superiore di 64px. 
+Il sito si basa su Gutenberg e sfrutta massicciamente il **CSS orientato ad oggetti**. es: le spaziature sono applicate tramite classi: margin-top-n. Il cliente può mettere margin-top-7 per avere un margine superiore di 64px. 
 Non è quello che cercava? margin-top-6 è 48px e margin-top-8 è di 96px.
 \\
 Per gestire spaziature diverse nella versione mobile ho creato classi sm--margin-top-n che sovrascrivono le classi margin-top nei casi in cui si attivino le media query.
@@ -210,5 +210,5 @@ Vorresti vedere la versione HD dei documenti? Sei interessato a quello che hai a
 
 \\
 \\
-[← Precedente Case study · Autoflow]({{site.baseurl}}/autoflow){:.one-half}
-[Prossimo Case study · Dividendo →]({{site.baseurl}}/dividendo){:.one-half style="text-align:right"}
+[← Precedente Case study · Speck&Tech]({{site.baseurl}}/speckandtech){:.one-half}
+[Prossimo Case study · LoremIpsum →]({{site.baseurl}}/ds){:.one-half style="text-align:right"}
