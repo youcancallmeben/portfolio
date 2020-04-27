@@ -20,6 +20,16 @@
         grid-gap: 1em;
     }
 
+    .one-third {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1em;
+
+        img {
+            margin-top: 8rem;
+        }
+    }
+
     .sticky{
         position: sticky;
         top: 10vh;
