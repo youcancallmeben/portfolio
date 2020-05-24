@@ -21,7 +21,7 @@ tools:          Figma, <br> Mural, <br> Notion, <br> GitHub
 
 Alma Digital è l'agenzia di web marketing dove ho effettuato tirocinio per 8 mesi come web designer. Finito il periodo di tirocinio mi sono offerto di continuare la nostra collaborazione con un progetto di rivisitazione della loro *Brand Identity*.
 
-Precedentemente la loro Brand image ruotava attorno all'idea di attrarre clienti appartenenti a startup e PMI — nell'ultimo anno il target si è spostato invece più su **B2B** ed **e-commerce**.
+<!-- Precedentemente la loro Brand image ruotava attorno all'idea di attrarre clienti appartenenti a startup e PMI — nell'ultimo anno il target si è spostato invece più su **B2B** ed **e-commerce**. -->
 
 
 ## Processo
@@ -37,23 +37,19 @@ Il primo step è stato definire l'essenza di Alma Digital: princìpi alla base, 
 
 Un lavoro del genere era stato fatto in passato usando il Business Model Canvas, ma essendo cambiato il target e la struttura aziendale andava completamente rivisto.
 
-Ci sono voluti diversi workshop e numerosi post-it, ma alla fine siamo riusciti a stilare un documento che definisse [l'essenza di Alma Digital](https://drive.google.com/open?id=137cKsqr84eaTk5H57rdlcCEfTqnZ8uqW){: .fancy-link}{:target="_blank"}.
+Ci sono voluti diversi workshop e numerosi post-it, ma alla fine siamo riusciti a stilare un documento che definisse l'essenza di Alma Digital contenente in particolare mission e value proposition.
 
 {: .responsive}
 ![Overview]({{site.baseurl}}/assets/img/almadigital/Overview.png)
-![Chi vogliamo]({{site.baseurl}}/assets/img/almadigital/Chi vogliamo.png)
-![Come lo fa]({{site.baseurl}}/assets/img/almadigital/Come lo fa.png)
-![Cosa fa concretamente]({{site.baseurl}}/assets/img/almadigital/Cosa fa concretamente.png)
-![Cosa fa in astratto]({{site.baseurl}}/assets/img/almadigital/Cosa fa in astratto.png)
 ![Problemi dei clienti]({{site.baseurl}}/assets/img/almadigital/Problemi dei clienti.png)
 
 
 ### Stile comunicativo
 In uno dei nostri meeting abbiamo effettuato un **card sorting** per fare chiarezza rispetto allo stile comunicativo da adottare.
 
-A seguito di questo incontro sono state definite alcune regole per la comunicazione riguardanti voice e il tone of voice. Il risultato è stato un documento chiamato [linee guida per la comunicazione](https://docs.google.com/document/d/1o2ZTG9AfZ_s__Sf6pIs2vHYUTENtaOIhWxKWqHnXeAI/edit?usp=sharing){: .fancy-link}{:target="_blank"}, dove sono esplicitate le caratteristiche della voce di Alma Digital e alcune convenzioni stilistiche — le linee guida sono massicciamente ispirate dalle [linee guida di Mailchimp](https://styleguide.mailchimp.com/){:target="_blank"}.
+A seguito di questo incontro sono state definite alcune regole per la comunicazione riguardanti voice e il tone of voice. Il risultato è stato un documento chiamato linee guida per la comunicazione, dove sono esplicitate le caratteristiche della voce di Alma Digital e alcune convenzioni stilistiche — le linee guida sono massicciamente ispirate dalle [linee guida di Mailchimp](https://styleguide.mailchimp.com/){:target="_blank"}.
 
-Abbiamo creato anche un documento con le [linee guida per la comunicazione specifiche per i social](https://docs.google.com/document/d/1PfJKnZVKY1yGVqUVGNkh9NASLkbL20Iwey-NyACAgL8/edit?usp=sharing){:target="_blank"}. Nel documento sono presenti indicazioni rispetto ai contenuti e ai target.
+Abbiamo creato anche un documento con le linee guida per la comunicazione specifiche per i social — nel documento sono presenti indicazioni rispetto ai contenuti e ai target.
 
 {: .responsive}
 ![Risultati Card Sorting]({{site.baseurl}}/assets/img/almadigital/Risultati card sorting.jpg)
@@ -152,16 +148,10 @@ Abbiamo optato per un layout chiaro e sintetico: il contenuto deve fare da padro
 ![case study brief]({{site.baseurl}}/assets/img/almadigital/Portfolio - results + social proofing.jpg)
 
 
-### Protipo lo-fi
-Avevamo un'idea di interazione piuttosto atipica: presentare già in homepage due differenti path in base a cosa interessa effettivamente le persone: uno più incentrato sugli e-commerce e uno per chi lavora per una B2B.\\
-Per testare quest'idea è stato fatto un prototipo lo-fi che ha seguito un arricchimento di dettagli incrementale. \\
-Per il momento la versione con i differenti path è stata accantonata.
+### Protipi 
+Per testare le idee è stato fatto un [prototipo lo-fi](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=185%3A10&viewport=194%2C-319%2C0.08579563349485397&scaling=min-zoom){:target="_blank"} che ha seguito un arricchimento di dettagli incrementale. 
 
-
-[Prototipo lo-fi su Figma](https://www.figma.com/proto/GOGOCe97ZHv09UkdyoFH6B/REBRANDING-ALMA?node-id=185%3A10&viewport=194%2C-319%2C0.08579563349485397&scaling=min-zoom){:.fancy-link}{:target="_blank"}
-
-### Prototipo Hi-fi
-Il prototipo è stato sviluppato con l'intento di avere il più alto livello di fedeltà possibile. 
+Il prototipo Hi-Fi è stato sviluppato con l'intento di avere il più alto livello di fedeltà possibile. 
 Sono contento di aver scelto questo approccio perché sono emerse diverse inconsistenze fra la mia idea di UI e quella degli stakeholders.
 In particolare abbiamo iterato diverse volte sugli elementi decorativi della pagina: nonostante ci trovassimo d'accordo sulla struttura di base del sito, l'intero look and feel sembrava troppo bianco al cliente.
 
@@ -195,6 +185,20 @@ Per gestire spaziature diverse nella versione mobile ho creato classi sm--margin
 ![Performance sito]({{ site.baseurl }}/assets/img/almadigital/GTmetrix.jpeg)
 
 lo sviluppo in locale è stato possibile grazie a XAMPP. e tutto il codice depositato su una [repo GitHub](https://github.com/SRFeesha/wp-alma){:target="_blank"}, utile più che altro come reference personale.
+
+<!-- ### Animazioni
+Una volta lanciata online una versione funzionante del sito mi sono concentrato sulle animazioni. Penso che il sito trasmettesse un'idea di pulizia e di chiarezza, forse troppo, mi piaceva l'idea di inserire un po' di subtle wow factor per aumentare la possibilità di una buona prima impressione. 
+
+![animazioni home]({{ site.baseurl }}/assets/img/almadigital/animazioni home.mp4) -->
+
+<!-- <figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="assets/img/almadigital/animazioni home.mp4" type="video/mp4">
+    <source src="path/to/video.ogg" type="video/ogg"> 
+    <source src="path/to/video.webm" type="video/webm">
+  </video>
+</figure> -->
+
 <!-- Uno dei problemi che ho incontrato una volta entrato nella fase di sviluppo è stata la mancanza di una Single Source of Truth. Nel momento in cui lo sviluppo in locale e lo sviluppo online differiscono comincia a insinuarsi dubbi rispetto a ciò che si sta facendo. L'approccio a Wordpress come headless CMS avrebbe potuto ovviare a questo problema, ma la verità è che sono venuto a conoscenza di questa possibilità in fase avanzata di sviluppo -->
 
 
