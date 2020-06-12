@@ -46,19 +46,6 @@ body {
   background-size: $dot-space $dot-space;
 }
 
-em {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAEUlEQVQYlWNgIA5IjSqisyIA0EgBBS81/ewAAAAASUVORK5CYII=) repeat;
-  padding: 0.15em;
-  font-style: normal;
-
-  // useful to apply inline kramdown style 
-  &.no-em{
-    background: none;
-    padding: 0;
-  }
-}
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -80,7 +67,6 @@ figure,
   margin-bottom: $spacing-unit / 2;
   // remove the grid dot effect
   background: #fbfaf3;
-
 }
 
 
@@ -280,12 +266,20 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -0.5px;
-  font-style: italic;
+  font-family: $quote-font-family;
+  @include relative-font-size(2.2);
+  font-size: min(calc($base-font-size*2.2), 10vw);
+  line-height: 1.3;
+  width: 80vw;
+  max-width: 1000px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -35vw;
+  margin-right: -50vw;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
 
   > :last-child {
     margin-bottom: 0;
@@ -296,6 +290,11 @@ blockquote {
   }
 }
 
+@include media-query($on-palm){
+  blockquote{
+    @include relative-font-size(1.75);
+  }
+}
 
 
 /**
@@ -364,7 +363,7 @@ pre {
  */
 
 .orange {
-  color: $orange-color;
+  // color: $orange-color;
 }
 
 .grey {

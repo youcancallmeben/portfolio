@@ -3,9 +3,10 @@
 // Define defaults for each variable.
 
 // $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$heading-font-family: 'Abril Fatface', cursive;
-$base-font-family: 'Lato', sans-serif;
-// $heading-font-family: 'Lato-bold', sans-serif;
+$heading-font-family: 'Amiko', sans-serif;
+$base-font-family: 'Overpass', sans-serif;
+$quote-font-family: 'Corben', sans-serif;
+
 $base-font-size:   20px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -18,12 +19,12 @@ $header-size:      $base-line-height * $base-font-size * 2.25;
 
 $text-color:       #222 !default;
 $background-color: #FBFAF3 !default;
-$brand-color:      #333 !default;
 $dividendo-color:  #61C9A8 !default;
 $autoflow-color:   #c54435  !default;
 $alma-color:       #0F609B !default;
 $set-color:        #DA4A91 !default;
 $ds-color:         #E67635 !default;
+$brand-color:      $text-color !default;
 
 $dot-color:        #e3e3e3 !default;
 $dot-size:         2px;
@@ -33,8 +34,8 @@ $line-height:      $dot-size + $dot-space;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-$orange-color:     #f66a0a !default;
-$blue-color:       #475c7a !default;
+// $orange-color:     #f66a0a !default;
+// $blue-color:       #475c7a !default;
 $table-text-align: left !default;
 
 // Width of the content area
