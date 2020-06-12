@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     // align-items: center;
-    height: calc(85vh - #{$header-size});
+    height: calc(75vh - #{$header-size});
     padding-top: 60px;
 
     p {
@@ -12,9 +12,21 @@
         // max-width: 40ch;
     }
 
+    #mynameis3 {
+        // font-family: $heading-font-family;
+        @include relative-font-size(1);
+        margin-bottom: 0;
+    }
+
+    #whoiam{
+        font-family: $quote-font-family;
+        @include relative-font-size(2);
+        // line-height: 1.2;
+    }
+
     #looking {
         @include relative-font-size(1);
-        margin-top: 3em;
+        margin-top: 2em;
         // max-width: auto;
         a {
             @include relative-font-size(1.3);
