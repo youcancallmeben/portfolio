@@ -1,8 +1,8 @@
 article.ds {
-
     blockquote {
-        border-left: 4px solid darken($ds-color, 5%);
-    }
+        border-left: none;
+        color: $ds-color;
+      }
 
     .first-image {
         background-image: url("/assets/img/ds/legoBig.png");
@@ -34,4 +34,3 @@ article.ds {
         color: $ds-color;
     }
 }
-    

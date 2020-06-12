@@ -1,7 +1,8 @@
 article.dividendo {
-
     blockquote {
-        border-left: 4px solid darken($dividendo-color, 5%);
+        // border-left: 4px solid darken($alma-color, 5%);
+        border-left: none;
+        color: $dividendo-color;
     }
 
     .first-image {
@@ -35,4 +36,3 @@ article.dividendo {
         color: $dividendo-color;
     }
 }
-    

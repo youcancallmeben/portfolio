@@ -1,7 +1,7 @@
 article.autoflow {
-
     blockquote {
-        border-left: 4px solid darken($autoflow-color, 5%);
+        border-left: none;
+        color: $autoflow-color;
     }
 
     .first-image {

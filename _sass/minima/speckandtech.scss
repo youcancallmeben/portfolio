@@ -1,6 +1,7 @@
 article.speckandtech {
   blockquote {
-    border-left: 4px solid darken($set-color, 5%);
+    border-left: none;
+    color: $set-color;
   }
 
   .first-image {

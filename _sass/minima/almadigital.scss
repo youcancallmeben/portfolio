@@ -1,7 +1,10 @@
 article.almadigital {
   blockquote {
-    border-left: 4px solid darken($alma-color, 5%);
+    // border-left: 4px solid darken($alma-color, 5%);
+    border-left: none;
+    color: $alma-color;
   }
+  
 
   .first-image {
     background-image: url("/assets/img/almadigital/AlmaDigitalStyleguide-mockup.png");
