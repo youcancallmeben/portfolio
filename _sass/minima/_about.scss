@@ -9,6 +9,12 @@
     background-size: contain;
 }
 
+@media screen and (max-width: $on-palm) {
+.avatar-desktop {
+    display: none;
+}
+}
+
 @media screen and (min-width: $on-large) {
     .avatar-mobile {
         display: none;
@@ -28,6 +34,13 @@
         img {
             margin-top: 8rem;
         }
+    }
+
+    .col-4 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+
     }
 
     .sticky{

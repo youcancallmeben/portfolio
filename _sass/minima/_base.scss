@@ -66,7 +66,7 @@ figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
   // remove the grid dot effect
-  background: #fbfaf3;
+  background: $background-color;
 }
 
 
@@ -177,10 +177,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $base-font-family;
+  font-family: $heading-font-family;
   font-weight: 700;
   color: black;
-  background: #fbfaf3;
+  background: $background-color;
   @include margin-top(3);
   @include margin-bottom(1);
 }

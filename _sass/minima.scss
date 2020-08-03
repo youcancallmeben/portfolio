@@ -17,13 +17,13 @@ $leading:          $base * $base-line-height;
 $spacing-unit:     30px !default;
 $header-size:      $base-line-height * $base-font-size * 2.25;
 
-$text-color:       #222 !default;
-$background-color: #FBFAF3 !default;
-$dividendo-color:  #61C9A8 !default;
-$autoflow-color:   #c54435  !default;
-$alma-color:       #0F609B !default;
-$set-color:        #DA4A91 !default;
-$ds-color:         #E67635 !default;
+$text-color:       #393737 !default;
+$background-color: #fef7e6 !default;
+$dividendo-color:  #4eac84 !default;
+$autoflow-color:   #ed462f  !default;
+$alma-color:       #36457e !default;
+$set-color:        #f2948d !default;
+$ds-color:         #f17f30 !default;
 $brand-color:      $text-color !default;
 
 $dot-color:        #e3e3e3 !default;
@@ -31,7 +31,7 @@ $dot-size:         2px;
 $dot-space:        30px;
 $line-height:      $dot-size + $dot-space;
 
-$grey-color:       #828282 !default;
+$grey-color:       #7e8b9e !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 // $orange-color:     #f66a0a !default;

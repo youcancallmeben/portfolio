@@ -8,9 +8,9 @@
   top: -80px;
   width: 100%;
   z-index: 10;
-	background-color: rgba(251, 250, 243, 0.9);
+	background-color: $background-color;
   backdrop-filter: blur(10px);
-  border-bottom: solid 1px #f0f0f0;
+  border-bottom: solid 1px darken($color: $background-color, $amount: 15%);
   transition: top 0.25s; /* Transition effect when sliding down (and up) */
 
   :hover {
@@ -330,6 +330,6 @@
 }
 
 .content {
-  background: #fbfaf3;
+  background: $background-color;
   // padding: 1em;
 }

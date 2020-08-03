@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /about/
 foto: /assets/img/benBig.png
+designskills: [Rapid Prototyping, UI Design, Typography]
 ---
 
 <!-- {:.profile-picture}
@@ -11,73 +12,60 @@ foto: /assets/img/benBig.png
 <div class="avatar-mobile"></div>
 
 <!-- **chi sono** -->
-#### Friendly, collaborative, and always learning.
-I am a web designer who is passionate about upcoming technologies and human behaviour. 
-<!-- and bridging the gap between humans and technology. -->
-Currently I live in Trento where I'm learning and finding inspiration in new places everyday, and strive to grow day by day as both a designer and *listener*.
-<!-- I like to concretize my design discoveries in infographics and sometimes develop them too. -->
+### Chi sono
+Mi chiamo Beniamino Marini e sono cresciuto su internet.
 
-<!-- **background** -->
-#### I came to design from a background in IT
-<!-- I am a designer with a background in IT. <br> -->
-Having worked in various sector from industrial automation, web design, quality management, and UX, I have developed an interdisciplinary skillset and bring strong interaction design, problem solving and problem finding skills. 
-<!-- allowing me to design solutions in a holistic way.  -->
+Sono una persona amichevole e alla mano—mi piace ascoltare le persone e condividere storie. Apprezzo i contrasti e l'attenzione per i dettagli.
 
-#### Passion
-<!-- I love learning about new perspectives from different people, enriching my minds with different views & experiences. -->
-<!-- I'm fascinated by how we perceive things and how this is related to how we remember them. -->
+Sono un designer multidisciplinare con un background tecnico, specializzato in UI Design con competenze in ambito UX, Brand e Front-end development. 
 
-<!-- I believe in the power of visualization of word, that can fit the gap left in our imaginations with detail -->
-<!-- I get excited discovering new technologies and I'm fascinated by all the enhancement in the world. -->
+Credo nella comunicazione e nel potere della mediazione: penso che il lavoro del designer sia in gran parte di negoziazione.
+
+Il mio **processo** è diviso in 3 step: definizione dei requisiti, problem finding e problem solving. [Scrivimi](mailto:mail@youcancallmeben.design) per saperne di più rispetto al mio processo :)
+
+## Esperienza
+
+**Brand Strategist & Front-end Developer**\\
+*Alma Digital · Trento*\\
+gen 2020—apr 2019
 
 
-<!-- As a designer, I enjoy solving complex problems by using a holistic design process with a focus on multi-disciplinary collaboration and rapid iteration.  -->
-I am curious and passionate about learning how the motivations and feelings of people impact their actions. 
-I'm fascinated by movement and the consequence it can have in our attention.
-I believe in technology that empowers, not detracts, the holistic experience. 
-<!-- **Mission** -->
-I’m an impact-driven designer who cares about designing efficient and enjoyable products for users. 
-
-<!-- I am a self-motivated designer, who is always open to new challenges and opportunities that can help me continue to develop and grow as a designer. 
-I aim to learn, explore and design, creative solutions and experiences that focus on solving practical real-life problems. 
-
-For me design goes beyond what things look like, it’s about how things function. It is about open collaboration, building empathy for all users types, asking the right questions and following an iterative human-centred approach to bring new and meaningful experiences to life. -->
+**Web Designer**\\
+*Alma Digital · Trento*\\
+apr 2019—nov 2019
 
 
-<!-- **Cosa faccio adesso** -->
-<!-- Right now I'm giving myself some time experimenting and diving deeper into the following fields: 
-  Front end development
-  UX Design
-  Motion Design
-  UI Design -->
-
-<!-- **contact me** -->
-<!-- *I am actively looking for full time opportunities for 2019!* -->
-
-<!-- If you want to ask something or you feel like you want to let me know anything, just drop a line here
-You can find me online also at 
-<div class="social-links">
-  {%- include social.html -%}
-</div> -->
+**Javascript Developer**\\
+*Autotex · Brescia*\\
+lug 2018—dec 2018
 
 
-<!-- Parole che voglio usare
-Holistic
-empowering
-Pomodoro Technique
-Problem finding 
-Rapid Iteration
-Information architecure
--->
+### Educazione
+
+**Laurea in UX Design**\\
+*Università di Trento*\\
+set 2017—set 2020
+
+**Perito informatico**\\
+*ITIS Castelli Brescia*\\
+set 2009—lug 2014
+
+**Graphik Week**\\
+*Università di Trento*\\
+mag 2018 & mag 2019
+
+**Interaction Design Foundation**\\
+dic 2018—dic 2019
+
+**Udemy**
+
+**Skillshare**
 
 
+### Interessi
 
-<!-- I am a multi-disciplinary designer  -->
-<!-- Hi! I’m Ben, a Product (UX/UI) Designer in Trento. -->
-<!-- I got crazy dad move -->
-<!-- I feel about mmyself that I have to pursue great achievement. -->
-<!-- More now than always seems easy to create valuable digital product. -->
-<!-- I'm still trying to find where to give my full attention and putting all my work -->
-<!-- I feel like there are so many things to learn.. There are days in which at the end I stop to reflect and i realize there are many things that i learned today, but i've also found even more things I'd like to learn.
-Right now my main objective is experimenting a little bit in all these fields to better understand where I'd like to specialize. -->
-<!-- T shaped expertise -->
+Design System\\
+Typography\\
+Micro-Interactions\\
+Motion
+

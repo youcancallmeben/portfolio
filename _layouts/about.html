@@ -2,8 +2,6 @@
 layout: default
 ---
 <article class="post">
-
-
     <div class="one-third">
         <div>
             <header class="post-header padding-header">
@@ -16,7 +14,14 @@ layout: default
             </div>
         </div>
         <!-- <img class="sticky all-height" src="{{site.baseurl}}/assets/img/benBig.png"> -->
-        <img src="{{site.baseurl}}/assets/img/benCodino-Rounded-Transparent.png">
+        <div class="right">
+            <img class="avatar-desktop" src="{{site.baseurl}}/assets/img/benCodino-Rounded-Transparent.png">
+            {%- include skills.html -%}
+        </div>
+
+        {%- include mi-piacciono.html -%}
+
     </div>
+
         
 </article>
